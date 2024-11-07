@@ -1,0 +1,18 @@
+.about-image-content{
+    background: var(--primaryClr);
+    width: 350px;
+    line-height: 42px;
+
+}
+
+@media screen and (max-width : 575px) {
+    .about-image-content{
+    
+        width: 261px;
+        line-height: 34px;
+    
+    }
+    
+}
+
+

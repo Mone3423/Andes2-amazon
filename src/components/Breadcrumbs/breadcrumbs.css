@@ -1,0 +1,47 @@
+.inner-banner-wrap .inner-banner-container {
+  background-image: url("../../assets/images//new/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  background-size: cover;
+  padding-top: 40px;
+  position: relative;
+}
+
+.inner-banner-wrap .inner-banner-container::before {
+  background-color: #151515;
+  content: "";
+  display: block;
+  opacity: 0.65;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.inner-banner-wrap .inner-banner-container .inner-banner-content {
+  padding: 90px 0 75px 0;
+  position: relative;
+}
+
+.navbar-link {
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.navbar-link .breadcrumb {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-link .breadcrumb .breadcrumb-item,
+.navbar-link .breadcrumb a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-link .breadcrumb-item+.breadcrumb-item::before{
+    color: white;
+}

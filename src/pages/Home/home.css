@@ -1,0 +1,148 @@
+.tours_section {
+  padding: 50px 0px;
+  background: var(--secondaryClr);
+}
+
+
+.call_us {
+  background: url("../../assets/images/slider/DJI_0072.jpg") no-repeat;
+  padding: 88px 0px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.call_us .title {
+  color: var(--primaryClr);
+  font-style: italic;
+}
+
+.call_us .heading {
+  font-size: 50px;
+  color: var(--white);
+  line-height: 58px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 0 20px 0;
+}
+
+.call_us p {
+  font-size: var(--subTitle);
+  color: var(--white);
+  line-height: 30px;
+}
+
+.call_us .secondary_btn {
+  background: none;
+  font-size: 18px;
+  color: var(--white);
+  display: inline-block;
+  border: 2px solid var(--white);
+  padding: 12px 8px;
+  text-decoration: none;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #00000054;
+  z-index: -1;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .call_us {
+    overflow: hidden;
+  }
+
+  .call_us .heading {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 5px 0 10px 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .call_us {
+    overflow: hidden;
+  }
+  .call_us .heading {
+    font-size: 22px;
+  }
+}
+
+.gallery {
+    background-color: var(--secondaryClr);
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.gallery .styles_thumbpanel__1sa4E {
+    z-index: 9999;
+}
+
+.gallery .styles_lightroom__1X2qE{
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+  background-color: #fffaf9;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.gallery .styles_thumbpanel__1sa4E {
+  z-index: 9999;
+}
+
+.gallery .styles_lightroom__1X2qE {
+  position: fixed;
+  overflow: hidden;
+  z-index: 9999;
+}

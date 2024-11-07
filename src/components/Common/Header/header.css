@@ -1,0 +1,141 @@
+
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: smothScroll 1s forwards;
+  background: var(--black);
+  z-index: 999;
+  box-shadow: var(--bs-box-shadow-sm) !important;
+}
+@keyframes smothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.is-sticky .navbar .navbar-brand a,
+.is-sticky .navbar .offcanvas-body a {
+  color: var(--black) !important;
+}
+
+.is-sticky .toggle_btn {
+  color: var(--primaryClr) !important;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  padding: 12px 0px;
+  width: 100%;
+}
+
+header .navbar .navbar-brand a {
+  font-size: 22px;
+  color: var(--white);
+  line-height: 150%;
+  font-family: var(--fontFamily1);
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+header .navbar .offcanvas-body a {
+  font-size: 14px;
+  color: var(--white) !important;
+  line-height: 150%;
+  font-family: var(--fontFamily);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .navbar .offcanvas-body .dropdown-menu a {
+  color:black !important
+}
+
+header .navbar .offcanvas-body a:hover {
+  color: var(--primaryClr) !important;
+}
+
+header .navbar .offcanvas-body .dropdown-menu {
+  min-width: 12rem;
+}
+
+header .navbar .offcanvas-body .dropdown-menu .dropdown-item {
+  color: var(--black) !important;
+}
+
+@media only screen and (max-width: 991px) {
+  header .navbar .toggle_btn {
+    font-size: var(--bodyText);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 7px 10px;
+  }
+
+  .is-sticky .navbar .toggle_btn {
+    border: 2px solid var(--primaryClr);
+  }
+
+  .offcanvas-header {
+    border: 1px solid gainsboro;
+  }
+
+  .offcanvas-header .logo{
+    font-size: 26px;
+    color: var(--black) !important;
+    font-family: var(--fontFamily1);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .offcanvas-body .nav-link {
+    padding: 12px 0px;
+    color:var(--black);
+  }
+
+  .offcanvas-body .dropdown-item{
+    padding: 12px 10px;
+    color:var(--black);
+  }
+
+
+
+
+}
+.logo-image {
+  width: 70px; /* ajusta el tamaño según tu diseño */
+  height: auto;
+  margin-right: 10px; /* espacio entre la imagen y el texto */
+  margin-top: 10px;
+}
+
+.profile-pic-circle {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.user-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-options .btn-outline-primary {
+  font-weight: bold;
+}
+.nav-link.active {
+  color: var(--primaryClr);
+  font-weight: bold;
+  border-bottom: 2px solid var(--primaryClr);
+}
