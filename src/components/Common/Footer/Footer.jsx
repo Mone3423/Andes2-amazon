@@ -47,7 +47,7 @@ const Footer = () => {
           <h4 className="mt-lg-0 mt-sm-3 me-3">Follow us   </h4>
               
           <i href="https://www.facebook.com/Andes2Amazon/" className="bi bi-facebook me-3" ></i>
-          <i className="bi bi-instagram me-3" href="tel:9876543210"></i>
+          <i className="bi bi-instagram me-3" href="https://www.facebook.com/Andes2Amazon/"></i>
           <i className="bi bi-youtube me-3" href="https://www.youtube.com/channel/UCIIeRPczn1QVsA5ByspArbQ"></i>
           </div>
              
@@ -57,7 +57,7 @@ const Footer = () => {
           <h4 className="mt-lg-0 mt-sm-3">Explore </h4>
           <ListGroup variant="flush">
               <ListGroup.Item>
-              <NavLink to="/tour">Tour Listings</NavLink>
+              <NavLink to="/tours">Tour Listings</NavLink>
               </ListGroup.Item>
               <ListGroup.Item>
               <NavLink to="/destinations"> Destination</NavLink>

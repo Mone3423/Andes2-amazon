@@ -17,7 +17,7 @@ const Banner = () => {
       <section className="slider">
         {/* Texto Fijo */}
         <div className="fixed-text">
-          <h5 className="heading">BOOK YOUR NEXT AVENTURE <span > WHIT US</span></h5>
+          <h5 className=" text-white text-uppercase font-bold">BOOK YOUR NEXT AVENTURE <span > WHIT US</span></h5>
           <p className="sub_text">
           Experience the beauty of Bolivia with our tours.
           </p>

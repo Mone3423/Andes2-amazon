@@ -17,11 +17,10 @@ const Blog = () => {
           <Col md="12">
               <h1 className="mb-2 h1 font-bold">
                 {" "}
-                Let's connect and get to konw each other
+                How to travel with paper map
               </h1>
               <p className="body-text mt-1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard{" "}
+              
               </p>
             </Col>
           </Row>

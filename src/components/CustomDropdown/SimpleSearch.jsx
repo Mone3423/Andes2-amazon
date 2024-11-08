@@ -23,7 +23,7 @@ const SimpleSearch = ({ onSearchResults }) => {
     <div>
       <input
         type="text"
-        placeholder="Buscar tours..."
+        placeholder="Seach tours..."
         value={query}
         onChange={handleSearch}
         className="search-input"

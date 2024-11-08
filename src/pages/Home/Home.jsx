@@ -3,13 +3,10 @@ import Banner from "../../components/Banner/Banner";
 import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Features from "../../components/Features/Features";
 import { Container, Row, Col,  } from "react-bootstrap";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import "./home.css";
-
 import Cards from "../../components/Cards/Cards";
 import { destinationsData, popularsData } from "../../utils/data";
 import PopularCard from "../../components/Cards/PopularCard";
@@ -129,6 +126,7 @@ const Home = () => {
           </Col>
         </Row>
         <Row>
+        <Slider {...settings}>
         {popularsData.map((val, inx)=>{
           return(
           <Col  md={3} sm={6} xs={12} className="mb-5" key={inx}>
@@ -136,6 +134,7 @@ const Home = () => {
           </Col>
         )
         })}
+         </Slider>
         </Row>
       </Container>
     </section>
@@ -161,8 +160,7 @@ const Home = () => {
 
         {/* Contenedor para los íconos, debajo del botón */}
         <div className="mt-3"> 
-          <a
-            href="https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0"
+          <a href="https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0"
             className="bi bi-instagram me-4 fs-3 text-white"
             rel="no"
           ></a>

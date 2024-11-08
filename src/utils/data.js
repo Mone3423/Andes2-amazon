@@ -4,7 +4,7 @@ import tour5 from "../assets/images/tour/Cochabamba.jpg";
 import tour7 from "../assets/images/tour/Potosi.jpg";
 import tour8 from "../assets/images/tour/Uyuni Salt Flats.jpg";
 import tour9 from "../assets/images/tour/Sajama.jpg";
-import tour10 from "../assets/images/tour/Rurenabaque.jpg";
+
 import tour11 from "../assets/images/tour/LakeTiticaca.jpg";
 import tour12 from "../assets/images/tour/DeathRoad.jpg";
 import tour13 from "../assets/images/tour/Sucre.jpg";
@@ -29,20 +29,21 @@ import image11 from "../assets/images/new/11.jpg";
 export const destinationsData = [
   {
     id: 0,
-    name: "La Paz",
-    tours: "13 tours and activities",
+    name: "Bolivia",
+    tours: "14 tours and activities",
     image: tour4,
     link: "tour-name",
     shortDes: "",
   },
+  
   {
     id: 1,
-    name: "Cochabamba",
-    tours: "3 tours and activities",
+    name: "Bolivia",
+    tours: "14 tours and activities",
     image: tour5,
     link: "tour-name",
   },
-
+/*
   {
     id: 3,
     name: "Potosí",
@@ -91,7 +92,7 @@ export const destinationsData = [
     tours: "3 tours and activities",
     image: tour13,
     link: "tour-name",
-  },
+  }, */
 ];
 
 export const popularsData = [
@@ -194,7 +195,7 @@ export const popularsData = [
   },
   {
     id: 11,
-    title: "Sajama National Park and Uyuni Salt Flats",
+    title: "Sajama National Park and Uyuni Salt Flats 3-Days Tour",
     image: tour7,  // Cambia el nombre de la imagen según lo que tengas
     location: "Bolivia, Potosí, Sajama and Salar de Uyuni",
     category: ["Adventure", "Nature"],
@@ -206,8 +207,8 @@ export const popularsData = [
   },
   {
     id: 12,
-    title: "Sajama National Park and Uyuni Salt Flats",
-    image: tour7,  // Cambia el nombre de la imagen según lo que tengas
+    title: "Sajama National Park and Uyuni Salt Flats: 2-Days Tour",
+    image: tour9,  // Cambia el nombre de la imagen según lo que tengas
     location: "Bolivia, Potosí, Sajama and Salar de Uyuni",
     category: ["Adventure", "Nature"],
     days: "2 days - 1 night",
@@ -218,7 +219,7 @@ export const popularsData = [
   },
   {
     id: 13,
-    title: "Sajama National Park and Uyuni Salt Flats",
+    title: "Sajama National Park and Uyuni Salt Flats 5-Days Tour",
     image: tour8,  // Cambia el nombre de la imagen según lo que tengas
     location: "Bolivia, Potosí, Sajama and Salar de Uyuni",
     category: ["Adventure", "Nature"],

@@ -15,7 +15,7 @@ const SuggestedResults = ({ results }) => {
           </div>
         ))
       ) : (
-        <p>No se encontraron resultados.</p>
+        <p>No results found.</p>
       )}
     </div>
   );

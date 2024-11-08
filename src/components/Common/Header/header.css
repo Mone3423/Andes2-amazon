@@ -57,6 +57,7 @@ header .navbar .offcanvas-body a {
 
 header .navbar .offcanvas-body .dropdown-menu a {
   color:black !important
+  
 }
 
 header .navbar .offcanvas-body a:hover {
@@ -84,7 +85,8 @@ header .navbar .offcanvas-body .dropdown-menu .dropdown-item {
   }
 
   .offcanvas-header {
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(0, 0, 0);
+    background: black,
   }
 
   .offcanvas-header .logo{
