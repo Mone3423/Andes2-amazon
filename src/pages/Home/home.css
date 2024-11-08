@@ -109,28 +109,48 @@
     overflow: hidden;
     z-index: 9999;
 }
+/* Estilos del Widget de WhatsApp */
+.whatsapp-widget {
+  position: fixed;
+  bottom: 130px; /* Posición desde abajo */
+  right: 18px;  /* Posición desde la derecha */
+  z-index: 1000;
+  background-color: #25d366; /* Color de WhatsApp */
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 
+.whatsapp-widget img {
+  width: 35px;
+  height: 35px;
+}
 
+.messenger-widget {
+  position: fixed;
+  bottom: 200px; /* Posición desde abajo */
+  right: 18px;  /* Posición desde la derecha */
+  z-index: 1000;
+  background-color: #fcfcfd; /* Color */
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.messenger-widget img {
+  width: 50px;
+  height: 50px;
+ }
 .gallery {
   background-color: #fffaf9;
   overflow: hidden;

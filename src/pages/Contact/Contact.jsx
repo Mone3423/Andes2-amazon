@@ -30,8 +30,7 @@ const Contact = () => {
                 Let's connect and get to konw each other
               </h1>
               <p className="body-text mt-1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard{" "}
+                {" "}
               </p>
             </Col>
           </Row>
@@ -50,9 +49,10 @@ const Contact = () => {
                     typesetting industry.
                   </p>
                   <div className="d-block justify-content-between">
-                    <a type="button" className="btn btn-light me-2 btn-sm">
+                    <a type="button" className="btn btn-light me-2 btn-sm"
+                    href="https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0">
                       <i className="bi bi-phone me-1"></i>
-                      +591 719-69465
+                      +591 719-69465 
                     </a>
                   </div>
                 </Card.Body>

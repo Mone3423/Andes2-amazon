@@ -12,21 +12,28 @@ import Destinations from "./pages/Destinations/Destinations";
 import Testimonials from "./components/Common/testimonials/testimonials";
 import Blog from "./pages/Blog/Blog";
 
+
+
 function App() {
   return (
     <>
+
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about-us" element={<About />} />
         <Route path="contact-us" element={<Contact />} />
         <Route path="tours" element={<Tours />} />
+  
+
         <Route path="/tour-details/:id" element={<TourDetails />} />
         <Route path="booking" element={<Booking />} />
         <Route path="destinations" element={<Destinations />} />
         <Route path="blog" element={<Blog />} />
+        
 
       </Routes>
+
       <Testimonials /> {/* Sección de testimonios */}
       <Footer />
     </>

@@ -271,7 +271,7 @@ export const tourDetailsData = [
     id: 1,
     title: "Complete Bolivia Highlights ",
     description: `Bolivia, a destination of spectacular landscapes and rich culture, offers travelers an unforgettable experience. This 12-day tour includes everything from the vibrant markets of La Paz to the vast plains of the Salar de Uyuni and the surreal colors of Eduardo Avaroa Park. With stops in colonial cities like Potosí and Sucre, the itinerary balances adventure and free time, providing an authentic immersion in Bolivian history, nature and traditions. Every detail has been carefully planned so that you can enjoy a unique experience in the heart of South America.`,
-    
+
     tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
       ' <strong className="font-bold">Duration:</strong> 12 Days, 11 Nights',
@@ -459,7 +459,7 @@ export const tourDetailsData = [
     id: 2,
     title: "Discover La Paz: A Culinary and Cultural Walking Full Day Tour",
     description: "Embark on an exciting La Paz city tour that blends rich history, vibrant culture, and delicious Bolivian cuisine. This walking and foodie tour is designed to give you an authentic experience of Bolivia's bustling capital.",
-    tourInfo:[
+    tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
       ' <strong className="font-bold">Duration:</strong> 12 Days, 11 Nights',
       '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
@@ -534,70 +534,74 @@ export const tourDetailsData = [
       "scheduleVariation": "The schedule may vary according to group pace."
     },
     faqs: [
-    {
-      "question": "What is included in the La Paz city tour?",
-      "answer": "The tour includes a knowledgeable local guide, all local transportation, coffee and Salteña tasting, two traditional meals (one at a restaurant and one at a market), four scenic cable car rides, and a choice of black potato or peanut soup."
-    },
-    {
-      "question": "What is not included in the tour price?",
-      "answer": "Tips for the guide, access to toilets along the way, and extra drinks are not included in the tour price."
-    },
-    {
-      "question": "How long does the tour last?",
-      "answer": "The La Paz city tour is a full-day experience lasting approximately 7 hours, from 9:00 AM to 6:30 PM."
-    },
-    {
-      "question": "What should I bring with me on the tour?",
-      "answer": "Bring comfortable walking shoes, weather-appropriate clothing, a water bottle, and some cash for any additional purchases or tips."
-    },
-    {
-      "question": "Is the tour suitable for children or individuals with mobility issues?",
-      "answer": "The tour involves walking and using local transportation, which may not be suitable for young children or individuals with mobility issues. Please contact us to discuss specific needs."
-    },
-    {
-      "question": "Can dietary restrictions be accommodated during the meals?",
-      "answer": "We strive to accommodate dietary restrictions. Please inform us of any specific dietary needs when booking the tour."
-    },
-    {
-      "question": "What languages are available for the tour guide?",
-      "answer": "Our guides are fluent in English and Spanish. Please inquire if you require a guide who speaks another language."
-    },
-    {
-      "question": "How do I book the La Paz city tour?",
-      "answer": "You can book the tour through our website or by contacting us directly. Early booking is recommended to secure your spot."
-    },
-    {
-      "question": "What happens if it rains on the day of the tour?",
-      "answer": "The tour will proceed rain or shine. We recommend bringing an umbrella or raincoat if rain is forecasted."
-    },
-    {
-      "question": "Are there any additional activities recommended after the tour?",
-      "answer": "Your guide can provide recommendations for evening activities or restaurants to explore after the tour concludes."
-    }
-  ]
+      {
+        "question": "What is included in the La Paz city tour?",
+        "answer": "The tour includes a knowledgeable local guide, all local transportation, coffee and Salteña tasting, two traditional meals (one at a restaurant and one at a market), four scenic cable car rides, and a choice of black potato or peanut soup."
+      },
+      {
+        "question": "What is not included in the tour price?",
+        "answer": "Tips for the guide, access to toilets along the way, and extra drinks are not included in the tour price."
+      },
+      {
+        "question": "How long does the tour last?",
+        "answer": "The La Paz city tour is a full-day experience lasting approximately 7 hours, from 9:00 AM to 6:30 PM."
+      },
+      {
+        "question": "What should I bring with me on the tour?",
+        "answer": "Bring comfortable walking shoes, weather-appropriate clothing, a water bottle, and some cash for any additional purchases or tips."
+      },
+      {
+        "question": "Is the tour suitable for children or individuals with mobility issues?",
+        "answer": "The tour involves walking and using local transportation, which may not be suitable for young children or individuals with mobility issues. Please contact us to discuss specific needs."
+      },
+      {
+        "question": "Can dietary restrictions be accommodated during the meals?",
+        "answer": "We strive to accommodate dietary restrictions. Please inform us of any specific dietary needs when booking the tour."
+      },
+      {
+        "question": "What languages are available for the tour guide?",
+        "answer": "Our guides are fluent in English and Spanish. Please inquire if you require a guide who speaks another language."
+      },
+      {
+        "question": "How do I book the La Paz city tour?",
+        "answer": "You can book the tour through our website or by contacting us directly. Early booking is recommended to secure your spot."
+      },
+      {
+        "question": "What happens if it rains on the day of the tour?",
+        "answer": "The tour will proceed rain or shine. We recommend bringing an umbrella or raincoat if rain is forecasted."
+      },
+      {
+        "question": "Are there any additional activities recommended after the tour?",
+        "answer": "Your guide can provide recommendations for evening activities or restaurants to explore after the tour concludes."
+      }
+    ]
   },
   {
     id: 3,
     title: "Salar de Uyuni 3-Day Tour Itinerary",
     description: "Experience the stunning landscapes of Salar de Uyuni and beyond on this immersive 3-day tour. From salt flats and colorful lagoons to deserts and geysers, this tour offers an unforgettable journey through Bolivia's most unique natural wonders.",
-    tourInfo:[
+    tourInfo: [
+      '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
+      ' <strong className="font-bold">Duration:</strong> 3 Days, 2 Nights',
+      '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
+      '<strong className="font-bold">End Point:</strong>  La Paz, Bolivia',
 
     ],
     itinerary: [
-        {
-          title: `<span class="me-1 fw-bold">Day 1:</span> Explore Uyuni, Colchani, and Incahuasi Island`,
-          des: `Begin at 10:30 am from Andes 2 Amazon's office. Visit the Uyuni train graveyard, Colchani, and the expansive Salt Flats of Uyuni. After lunch, hike to Isla Incahuasi for giant cacti and coral formations. Enjoy a sunset at Pia Pia Island and stay at a salt hostel in Villa Candelaria.`
-        },
-        {
-          title: `<span class="me-1 fw-bold">Day 2:</span> Discover Chiguana Desert and Red Lagoon`,
-          des: `Start with breakfast, then explore the Chiguana Desert, Andean lagoons, and Eduardo Avaroa National Reserve, including the famous 'Rock Tree' and Red Lagoon. End the day at a basic lodge in Huayllajara.`
-        },
-        {
-          title: `<span class="me-1 fw-bold">Day 3:</span> Experience Dali Desert and Green Lagoon`,
-          des: `Begin early with a visit to the Sol de Mañana Geyser, Dali Desert, and Green Lagoon near the Chile border. Return to Uyuni via Valley of the Rocks and San Cristobal Village, or arrange for border crossing to San Pedro de Atacama in Chile.`
-        }
-      
-      
+      {
+        title: `<span class="me-1 fw-bold">Day 1:</span> Explore Uyuni, Colchani, and Incahuasi Island`,
+        des: `Begin at 10:30 am from Andes 2 Amazon's office. Visit the Uyuni train graveyard, Colchani, and the expansive Salt Flats of Uyuni. After lunch, hike to Isla Incahuasi for giant cacti and coral formations. Enjoy a sunset at Pia Pia Island and stay at a salt hostel in Villa Candelaria.`
+      },
+      {
+        title: `<span class="me-1 fw-bold">Day 2:</span> Discover Chiguana Desert and Red Lagoon`,
+        des: `Start with breakfast, then explore the Chiguana Desert, Andean lagoons, and Eduardo Avaroa National Reserve, including the famous 'Rock Tree' and Red Lagoon. End the day at a basic lodge in Huayllajara.`
+      },
+      {
+        title: `<span class="me-1 fw-bold">Day 3:</span> Experience Dali Desert and Green Lagoon`,
+        des: `Begin early with a visit to the Sol de Mañana Geyser, Dali Desert, and Green Lagoon near the Chile border. Return to Uyuni via Valley of the Rocks and San Cristobal Village, or arrange for border crossing to San Pedro de Atacama in Chile.`
+      }
+
+
     ],
     included: [
       "Pickup from accommodation or bus station",
@@ -616,9 +620,9 @@ export const tourDetailsData = [
     ],
     additionalInformation: [
       "rainySeason: During January to April, the Salt Flats fill up with water, modifying the itinerary. Fish Island is replaced with sky-reflective stops, alternative lodging, and geyser visits on Day 2 instead of Day 3.",
-     " winterSeason: From June to August, access to Eduardo Avaroa National Park may be restricted due to snow, replacing Red Lagoon with Black Lagoon and Valley of the Rocks, if accessible.",
+      " winterSeason: From June to August, access to Eduardo Avaroa National Park may be restricted due to snow, replacing Red Lagoon with Black Lagoon and Valley of the Rocks, if accessible.",
       "temperatureWarning: Temperatures can drop below -15°C in winter; bring extra warm clothing, scarf, and wool hat. Carry 5 liters of water to stay hydrated."
-],
+    ],
     suggestedPackingList: [
       "Sun hat, sunglasses, sunblock, coat, gloves, wool hat",
       "Trekking shoes, warm socks, swimsuit and towel",
@@ -626,35 +630,35 @@ export const tourDetailsData = [
       "Flashlight/torch, camera, extra batteries and memory card, charger",
       "Hand sanitizer, personal first aid kit"
     ],
-      faqs: [
-        {
-          "question": "What should I pack for the Salar de Uyuni tour?",
-          "answer": "For your Salar de Uyuni tour, pack essentials like a sun hat, sunglasses, sunblock, a warm coat, gloves, a wool hat, and trekking shoes. Don't forget a swimsuit and towel for the hot springs, extra water (at least 5 liters), snacks, personal medication, a flashlight or torch, a camera with extra batteries and memory card, and a personal first aid kit. The temperatures can drop significantly, especially during the winter months, so bring plenty of warm clothing."
-        },
-        {
-          "question": "How does the itinerary change during the rainy season?",
-          "answer": "During the rainy season (January to April), the Salt Flats may fill with water, altering the itinerary. Instead of visiting Isla Incahuasi, you'll explore areas where the sky reflects on the water. Accommodation locations might change due to accessibility issues. The visit to Sol de Mañana Geysers and hot springs may also be rescheduled from Day 3 to the end of Day 2."
-        },
-        {
-          "question": "Are entrance fees included in the tour price?",
-          "answer": "No, entrance fees are not included in the tour price. You will need to pay separately for Isla Incahuasi (30 Bs) and Eduardo Avaroa National Park (150 Bs). Other costs such as toilets on the way (20 Bs) and hot springs entry (6 Bs) are also not included."
-        },
-        {
-          "question": "What is the accommodation like during the tour?",
-          "answer": "On Day 1, you will stay in a salt hostel in Villa Candelaria with double rooms. On Day 2, accommodation is in a basic lodge with shared facilities at Huayllajara. During certain seasons or weather conditions, accommodations may change due to accessibility issues."
-        },
-        {
-          "question": "Is it possible to end the tour in San Pedro de Atacama, Chile?",
-          "answer": "Yes, you can choose to end your tour in San Pedro de Atacama instead of returning to Uyuni. Guides will assist with border crossing arrangements on Day 3. However, this transfer must be booked in advance."
-        }
-      ]
-        
+    faqs: [
+      {
+        "question": "What should I pack for the Salar de Uyuni tour?",
+        "answer": "For your Salar de Uyuni tour, pack essentials like a sun hat, sunglasses, sunblock, a warm coat, gloves, a wool hat, and trekking shoes. Don't forget a swimsuit and towel for the hot springs, extra water (at least 5 liters), snacks, personal medication, a flashlight or torch, a camera with extra batteries and memory card, and a personal first aid kit. The temperatures can drop significantly, especially during the winter months, so bring plenty of warm clothing."
+      },
+      {
+        "question": "How does the itinerary change during the rainy season?",
+        "answer": "During the rainy season (January to April), the Salt Flats may fill with water, altering the itinerary. Instead of visiting Isla Incahuasi, you'll explore areas where the sky reflects on the water. Accommodation locations might change due to accessibility issues. The visit to Sol de Mañana Geysers and hot springs may also be rescheduled from Day 3 to the end of Day 2."
+      },
+      {
+        "question": "Are entrance fees included in the tour price?",
+        "answer": "No, entrance fees are not included in the tour price. You will need to pay separately for Isla Incahuasi (30 Bs) and Eduardo Avaroa National Park (150 Bs). Other costs such as toilets on the way (20 Bs) and hot springs entry (6 Bs) are also not included."
+      },
+      {
+        "question": "What is the accommodation like during the tour?",
+        "answer": "On Day 1, you will stay in a salt hostel in Villa Candelaria with double rooms. On Day 2, accommodation is in a basic lodge with shared facilities at Huayllajara. During certain seasons or weather conditions, accommodations may change due to accessibility issues."
+      },
+      {
+        "question": "Is it possible to end the tour in San Pedro de Atacama, Chile?",
+        "answer": "Yes, you can choose to end your tour in San Pedro de Atacama instead of returning to Uyuni. Guides will assist with border crossing arrangements on Day 3. However, this transfer must be booked in advance."
+      }
+    ]
+
   },
   {
     id: 4,
     title: "One-Day Uyuni Salt Flats Tour Itinerary",
     description: "Discover the surreal beauty of the Uyuni Salt Flats with a guided one-day tour. Visit the historic train graveyard, experience local culture in Colchani, and explore the vast salt flats and Isla Incahuasi, ending with a breathtaking sunset.",
-    tourInfo:[
+    tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
       ' <strong className="font-bold">Duration:</strong> 1 Day',
       '<strong className="font-bold">Start Point:</strong> 10:30AM - Uyuni, Bolivia',
@@ -687,18 +691,18 @@ export const tourDetailsData = [
       }
     ],
     additionalInformation: [
-      
+
       '<strong className="font-bold">Season:</strong> Rainy Season',
       '<strong className="font-bold">Dates:</strong> November to April',
       '<strong className="font-bold">Note:</strong> Incahuasi Island access may be restricted; alternative routes are provided if weather permits.',
-     
-      
+
+
       '<strong className="font-bold">Season:</strong> Winter Season',
       '<strong className="font-bold">Dates:</strong> May to August',
       '<strong className="font-bold">Note:</strong> Access to Eduardo Avaroa National Park may be limited. Alternative visits to Black Lagoon and Rock Valley are available depending on weather conditions.',
-      
-        "This tour is suitable for arrivals by bus or plane. The Andes 2 Amazon office is a 20-minute taxi ride from both the Uyuni bus terminal and airport. Ensure you have travel insurance and personal toiletries for comfort during the tour."
-      
+
+      "This tour is suitable for arrivals by bus or plane. The Andes 2 Amazon office is a 20-minute taxi ride from both the Uyuni bus terminal and airport. Ensure you have travel insurance and personal toiletries for comfort during the tour."
+
     ],
     highlights: [
       "Pickup from accommodation or bus station",
@@ -709,57 +713,57 @@ export const tourDetailsData = [
     additionalCosts: [
       '<strong className="font-bold">Entrance fees for Isla Incahuasi:</strong> 30 Bs',
       '<strong className="font-bold">Toilet facilities along the route:</strong> 20 Bs',
-     ' <strong className="font-bold">Optional 2-liter water bottle:</strong> Cost varies',
-     '<strong className="font-bold">Tips for guides and drivers:</strong> Optional'
+      ' <strong className="font-bold">Optional 2-liter water bottle:</strong> Cost varies',
+      '<strong className="font-bold">Tips for guides and drivers:</strong> Optional'
     ],
-  
+
   },
   {
     id: 5,
     title: "Where You Reach the Sky Express - Uyuni Salt Flats 3-Day Tour",
     description: "Embark on a 3-day adventure from La Paz to the Uyuni Salt Flats, featuring a full-day tour of the mesmerizing salt flats and a comfortable overnight bus experience.",
-    tourInfo:[
-
+    tourInfo: [
+      '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
+      ' <strong className="font-bold">Duration:</strong> 3 Days, 2 Nights',
+      '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
+      '<strong className="font-bold">End Point:</strong>  La Paz, Bolivia',
     ],
     itinerary: [
       {
-        "day": 1,
-        "title": "Departure from La Paz",
-        "description": "Begin the tour with an evening transfer from your hotel to the La Paz bus station. Board an overnight bus to Uyuni to rest and prepare for the adventure."
+        title: `<span class="me-1 fw-bold">Day 1:</span> Departure from La Paz`,
+        des: `Begin the tour with an evening transfer from your hotel to the La Paz bus station. Board an overnight bus to Uyuni to rest and prepare for the adventure.`,
       },
       {
-        "day": 2,
-        "title": "Uyuni Salt Flats Full-Day Tour",
-        "description": "Arrive in Uyuni and enjoy breakfast before starting the full-day exploration in a 4WD Toyota Land Cruiser with an experienced guide. The tour includes:",
-        "activities": [
+        title: `<span class="me-1 fw-bold">Day 2:</span> Uyuni Salt Flats Full-Day Tour`,
+        des: `Arrive in Uyuni and enjoy breakfast before starting the full-day exploration in a 4WD Toyota Land Cruiser with an experienced guide. The tour includes:`,
+        activities: [
           {
-            "title": "Train Graveyard",
-            "description": "Visit the iconic Train Graveyard, featuring Bolivia's first locomotives."
+            title: `<span class="me-1 fw-bold">Train Graveyard:</span>`,
+            des: `Visit the iconic Train Graveyard, featuring Bolivia's first locomotives.`,
           },
           {
-            "title": "Colchani Village",
-            "description": "Observe salt miners and browse unique handicrafts in this quaint village."
+            title: `<span class="me-1 fw-bold">Colchani Village:</span>`,
+            des: `Observe salt miners and browse unique handicrafts in this quaint village.`,
           },
           {
-            "title": "Salar de Uyuni",
-            "description": "Capture stunning photos at Los Ojos de Agua Salada and visit a salt hotel turned museum."
+            title: `<span class="me-1 fw-bold">Salar de Uyuni:</span>`,
+            des: `Capture stunning photos at Los Ojos de Agua Salada and visit a salt hotel turned museum.`,
           },
           {
-            "title": "Isla Incahuasi",
-            "description": "Hike to the top of Isla Incahuasi to view giant cacti and ancient coral formations. Ideal for creative photography."
+            title: `<span class="me-1 fw-bold">Isla Incahuasi:</span>`,
+            des: `Hike to the top of Isla Incahuasi to view giant cacti and ancient coral formations. Ideal for creative photography.`,
           },
           {
-            "title": "Sunset Over the Salt Flats",
-            "description": "Conclude the tour with a beautiful sunset view before returning to Uyuni for the overnight bus back to La Paz."
-          }
+            title: `<span class="me-1 fw-bold">Sunset Over the Salt Flats:</span>`,
+            des: `Conclude the tour with a beautiful sunset view before returning to Uyuni for the overnight bus back to La Paz.`,
+          },
         ],
-        "note": "During the rainy season (November to April), access to Isla Incahuasi may be restricted. Alternative routes will be provided if necessary."
+        note: `During the rainy season (November to April), access to Isla Incahuasi may be restricted. Alternative routes will be provided if necessary.`,
       },
       {
-        "day": 3,
-        "title": "Return to La Paz",
-        "description": "Arrive back in La Paz in the morning, with a transfer to your hotel to conclude the tour."
-      }
+        title: `<span class="me-1 fw-bold">Day 3:</span> Return to La Paz`,
+        des: `Arrive back in La Paz in the morning, with a transfer to your hotel to conclude the tour.`,
+      },
     ],
     highlights: [
       "Take unique photos on the Uyuni Salt Flats",
@@ -787,49 +791,50 @@ export const tourDetailsData = [
         "season": "Rainy Season",
         "dates": "November to April",
         "note": "Access to Isla Incahuasi may be restricted; alternative routes will be provided if necessary.",
-     
+
         "question": "What should I bring?",
         "answer": "Personal toiletries, a water bottle, and warm clothing as temperatures vary. Ensure you have travel insurance and are prepared for high-altitude conditions."
       }
     ],
-    
-      faqs: [
-        {
-          "question": "What is included in the Uyuni Salt Flats Tour?",
-          "answer": "The tour includes round-trip bus transportation between La Paz and Uyuni, transfers in La Paz and Uyuni, a full-day tour of the Uyuni Salt Flats in a 4WD vehicle, an English-speaking guide and local driver, one lunch with drinks included, and entrance fees to Isla Incahuasi."
-        },
-        {
-          "question": "What is not included in the tour package?",
-          "answer": "Toiletries such as towels, toilet paper, and soap, additional meals and drinks not specified in the itinerary, toilets along the way (approximately 10 Bs), tips for the guide and driver, personal expenses and travel insurance, and a 2-liter water bottle for the day (can be purchased before the tour) are not included."
-        },
-        {
-          "question": "What is the itinerary for the tour?",
-          "answer": "Day 1: Departure from La Paz with an evening bus to Uyuni. Day 2: Full-day tour of the Uyuni Salt Flats, including visits to the Train Graveyard, Colchani, Isla Incahuasi, and a sunset view over the salt flats. Return to La Paz by overnight bus. Day 3: Arrival in La Paz with a transfer to your hotel."
-        },
-        {
-          "question": "Are there any seasonal considerations for this tour?",
-          "answer": "During the rainy season (November to April), access to Isla Incahuasi may be restricted. Alternative routes will be provided if necessary, and accommodations may change due to road conditions."
-        },
-        {
-          "question": "How should I prepare for this tour?",
-          "answer": "Bring personal toiletries, a water bottle, and warm clothing as temperatures can vary significantly. Ensure you have travel insurance and prepare for high-altitude conditions."
-        }
-      ]
-    
-    
+
+    faqs: [
+      {
+        "question": "What is included in the Uyuni Salt Flats Tour?",
+        "answer": "The tour includes round-trip bus transportation between La Paz and Uyuni, transfers in La Paz and Uyuni, a full-day tour of the Uyuni Salt Flats in a 4WD vehicle, an English-speaking guide and local driver, one lunch with drinks included, and entrance fees to Isla Incahuasi."
+      },
+      {
+        "question": "What is not included in the tour package?",
+        "answer": "Toiletries such as towels, toilet paper, and soap, additional meals and drinks not specified in the itinerary, toilets along the way (approximately 10 Bs), tips for the guide and driver, personal expenses and travel insurance, and a 2-liter water bottle for the day (can be purchased before the tour) are not included."
+      },
+      {
+        "question": "What is the itinerary for the tour?",
+        "answer": "Day 1: Departure from La Paz with an evening bus to Uyuni. Day 2: Full-day tour of the Uyuni Salt Flats, including visits to the Train Graveyard, Colchani, Isla Incahuasi, and a sunset view over the salt flats. Return to La Paz by overnight bus. Day 3: Arrival in La Paz with a transfer to your hotel."
+      },
+      {
+        "question": "Are there any seasonal considerations for this tour?",
+        "answer": "During the rainy season (November to April), access to Isla Incahuasi may be restricted. Alternative routes will be provided if necessary, and accommodations may change due to road conditions."
+      },
+      {
+        "question": "How should I prepare for this tour?",
+        "answer": "Bring personal toiletries, a water bottle, and warm clothing as temperatures can vary significantly. Ensure you have travel insurance and prepare for high-altitude conditions."
+      }
+    ]
+
+
   },
   {
     id: 6,
     title: "Explore Bolivia's Wonders: 10-Day Adventure from La Paz to Atacama",
     overview: {
-      
+
     },
-    tourInfo:[{
+    tourInfo: [{
       "duration": "10 Days",
       "start_location": "La Paz/Copacabana, Bolivia",
       "end_location": "La Paz, Bolivia/San Pedro de Atacama, Chile",
       "tour_style": "Cultural & Adventure",
-      "physical_level": "Moderate",}
+      "physical_level": "Moderate",
+    }
     ],
     highlights: [
       "Discover Salar de Uyuni, the world's largest salt flat",
@@ -897,68 +902,68 @@ export const tourDetailsData = [
       "group_size": "Maximum 12 travelers",
       "physical_level": "Moderate (some walking required)"
     },
-    packing_list: [
+    suggestedPackingList: [
       "Warm layers for high altitudes",
       "Sun protection",
       "Camera for salt flat photos",
       "Comfortable walking shoes",
       "Water bottle"
     ],
-    optional_add_ons: [
+    additionalCosts: [
       "Death Road Mountain Biking",
       "Additional nights in La Paz",
       "Extensions to Amazon rainforest",
       "Transfers to/from airports"
     ],
-    
-      "faqs": [
-        {
-          "question": "What is the duration of the tour?",
-          "answer": "The tour lasts 10 days, starting in La Paz or Copacabana and ending in La Paz or San Pedro de Atacama."
-        },
-        {
-          "question": "What are the main highlights of the tour?",
-          "answer": "The main highlights include Lake Titicaca, Isla del Sol, La Paz city tour, Sucre, Potosí silver mines, and the Uyuni Salt Flats expedition."
-        },
-        {
-          "question": "What type of accommodation is provided?",
-          "answer": "Accommodation varies throughout the tour, including basic private rooms, shared hostels, and a unique salt hotel in Uyuni."
-        },
-        {
-          "question": "Are meals included in the tour?",
-          "answer": "The tour includes 3 breakfasts, 4 lunches, and 3 dinners. Other meals are not included."
-        },
-        {
-          "question": "Is transportation provided between destinations?",
-          "answer": "Yes, all ground transportation between destinations is included in the tour package."
-        },
-        {
-          "question": "Are there any additional fees I should be aware of?",
-          "answer": "Yes, there are some additional fees not included in the tour price, such as entrance fees to Isla Incahuasi (30 BS) and Reserva Eduardo Avaroa (150 BS)."
-        },
-        {
-          "question": "What should I bring for the Uyuni Salt Flats tour?",
-          "answer": "You should bring a 2-liter water bottle per day, toiletries, and warm clothing. A sleeping bag can be provided if requested."
-        },
-        {
-          "question": "Is the tour suitable for people with altitude sickness?",
-          "answer": "Some parts of the tour reach high altitudes, such as the Sol de Mañana Geyser at 5,000m. If you're prone to altitude sickness, consult your doctor before booking."
-        },
-        {
-          "question": "Can I customize the tour to end in San Pedro de Atacama instead of returning to La Paz?",
-          "answer": "Yes, you can choose to end the tour in San Pedro de Atacama, Chile, instead of returning to La Paz."
-        },
-        {
-          "question": "Are there any seasonal changes to the itinerary?",
-          "answer": "Yes, during the rainy season (November to April) and winter season (May to August), some parts of the itinerary may change due to weather conditions and accessibility."
-        },
-        {
-          "question": "Is an English-speaking guide provided throughout the tour?",
-          "answer": "English-speaking guides are provided for specific experiences, but a single guide does not accompany you for the entire 10-day tour."
-        }
-      ],
-    
-    
+
+    faqs: [
+      {
+        "question": "What is the duration of the tour?",
+        "answer": "The tour lasts 10 days, starting in La Paz or Copacabana and ending in La Paz or San Pedro de Atacama."
+      },
+      {
+        "question": "What are the main highlights of the tour?",
+        "answer": "The main highlights include Lake Titicaca, Isla del Sol, La Paz city tour, Sucre, Potosí silver mines, and the Uyuni Salt Flats expedition."
+      },
+      {
+        "question": "What type of accommodation is provided?",
+        "answer": "Accommodation varies throughout the tour, including basic private rooms, shared hostels, and a unique salt hotel in Uyuni."
+      },
+      {
+        "question": "Are meals included in the tour?",
+        "answer": "The tour includes 3 breakfasts, 4 lunches, and 3 dinners. Other meals are not included."
+      },
+      {
+        "question": "Is transportation provided between destinations?",
+        "answer": "Yes, all ground transportation between destinations is included in the tour package."
+      },
+      {
+        "question": "Are there any additional fees I should be aware of?",
+        "answer": "Yes, there are some additional fees not included in the tour price, such as entrance fees to Isla Incahuasi (30 BS) and Reserva Eduardo Avaroa (150 BS)."
+      },
+      {
+        "question": "What should I bring for the Uyuni Salt Flats tour?",
+        "answer": "You should bring a 2-liter water bottle per day, toiletries, and warm clothing. A sleeping bag can be provided if requested."
+      },
+      {
+        "question": "Is the tour suitable for people with altitude sickness?",
+        "answer": "Some parts of the tour reach high altitudes, such as the Sol de Mañana Geyser at 5,000m. If you're prone to altitude sickness, consult your doctor before booking."
+      },
+      {
+        "question": "Can I customize the tour to end in San Pedro de Atacama instead of returning to La Paz?",
+        "answer": "Yes, you can choose to end the tour in San Pedro de Atacama, Chile, instead of returning to La Paz."
+      },
+      {
+        "question": "Are there any seasonal changes to the itinerary?",
+        "answer": "Yes, during the rainy season (November to April) and winter season (May to August), some parts of the itinerary may change due to weather conditions and accessibility."
+      },
+      {
+        "question": "Is an English-speaking guide provided throughout the tour?",
+        "answer": "English-speaking guides are provided for specific experiences, but a single guide does not accompany you for the entire 10-day tour."
+      }
+    ],
+
+
     notes: "Itinerary may vary during rainy season (November to March) or extreme weather conditions."
   },
   {
@@ -976,7 +981,7 @@ export const tourDetailsData = [
       '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
       '<strong className="font-bold">End Point:</strong>  La Paz, Bolivia',
     ],
-    
+
     highlights: [
       "Explore Sucre's colonial architecture and vibrant markets",
       "Descend into Potosí's legendary silver mines",
@@ -1020,92 +1025,90 @@ export const tourDetailsData = [
     ],
     itinerary: [
       {
-        "day": 1,
-        "title": "Arrival in La Paz, Bolivia",
-        "description": "Spend a free day exploring La Paz. In the evening, board a night bus to Sucre."
+        title: `<span class="me-1 fw-bold">Day 1:</span> Arrival in La Paz, Bolivia`,
+        des: `Spend a free day exploring La Paz. In the evening, board a night bus to Sucre.`,
       },
       {
-        "day": 2,
-        "title": "Sucre, Bolivia",
-        "description": "Arrive early in Sucre for a free day of rest and exploration. Overnight in a comfortable hotel."
+        title: `<span class="me-1 fw-bold">Day 2:</span> Sucre, Bolivia`,
+        des: `Arrive early in Sucre for a free day of rest and exploration. Overnight in a comfortable hotel.`,
       },
       {
-        "day": 3,
-        "title": "Sucre with a Local",
-        "experiences": [
-          "Enjoy a traditional 'Tojori' breakfast at Sucre's main market",
-          "Guided tour of Sucre’s historical sites: the obelisk, Bolivar Park, and La Recoleta for panoramic views",
-          "End the tour at Sucre's unique cemetery"
+        title: `<span class="me-1 fw-bold">Day 3:</span> Sucre with a Local`,
+        des: `Explore Sucre with these experiences:`,
+        experiences: [
+          `<span class="me-1 fw-bold">Tojori Breakfast:</span> Enjoy a traditional 'Tojori' breakfast at Sucre's main market`,
+          `<span class="me-1 fw-bold">Historical Tour:</span> Guided tour of Sucre’s historical sites: the obelisk, Bolivar Park, and La Recoleta for panoramic views`,
+          `<span class="me-1 fw-bold">Cemetery Visit:</span> End the tour at Sucre's unique cemetery`,
         ],
-        "transfer": "Afternoon bus ride to Potosí"
+        transfer: `Afternoon bus ride to Potosí.`,
       },
       {
-        "day": 4,
-        "title": "Potosí, Bolivia",
-        "experiences": [
-          "Cerro Rico mine tour, learning about miners' lives",
-          "Visit the Mint Museum to see where coins were produced in colonial South America"
+        title: `<span class="me-1 fw-bold">Day 4:</span> Potosí, Bolivia`,
+        des: `Discover Potosí's rich history with these activities:`,
+        experiences: [
+          `<span class="me-1 fw-bold">Cerro Rico Mine Tour:</span> Learn about miners' lives in the famous Cerro Rico mine`,
+          `<span class="me-1 fw-bold">Mint Museum:</span> Visit the Mint Museum to see where coins were produced in colonial South America`,
         ],
-        "transfer": "Evening bus to Uyuni"
+        transfer: `Evening bus to Uyuni.`,
       },
       {
-        "day": 5,
-        "title": "Uyuni Salt Flats & Desert Adventure (1st Day)",
-        "experiences": [
-          "Visit Uyuni's train graveyard and Colchani",
-          "Explore the Uyuni Salt Flats and enjoy a sunset over the flats"
+        title: `<span class="me-1 fw-bold">Day 5:</span> Uyuni Salt Flats & Desert Adventure (1st Day)`,
+        des: `Start your adventure with these activities:`,
+        experiences: [
+          `<span class="me-1 fw-bold">Train Graveyard & Colchani:</span> Visit Uyuni's train graveyard and the village of Colchani`,
+          `<span class="me-1 fw-bold">Salar de Uyuni:</span> Explore the Uyuni Salt Flats and enjoy a sunset over the flats`,
         ],
-        "accommodation": "Villa Candelaria at 'La Escondida', a salt hotel"
+        accommodation: `Villa Candelaria at 'La Escondida', a salt hotel.`,
       },
       {
-        "day": 6,
-        "title": "Chiguana Desert & Lagoons (2nd Day)",
-        "experiences": [
-          "Visit the Chiguana Desert and Andean lagoons with flamingos",
-          "Explore Eduardo Avaroa National Reserve, including the Red Lagoon"
+        title: `<span class="me-1 fw-bold">Day 6:</span> Chiguana Desert & Lagoons (2nd Day)`,
+        des: `Continue your desert exploration with these experiences:`,
+        experiences: [
+          `<span class="me-1 fw-bold">Chiguana Desert & Lagoons:</span> Visit the Chiguana Desert and Andean lagoons with flamingos`,
+          `<span class="me-1 fw-bold">Eduardo Avaroa National Reserve:</span> Explore the Red Lagoon in Eduardo Avaroa National Reserve`,
         ],
-        "accommodation": "'HUAYLLAJARA', a basic lodge"
+        accommodation: `'HUAYLLAJARA', a basic lodge.`,
       },
       {
-        "day": 7,
-        "title": "Sol de Mañana Geyser & Dali Desert (3rd Day)",
-        "experiences": [
-          "Visit Sol de Mañana Geyser and take a dip in natural hot springs",
-          "Explore the Dali Desert and end at the Green Lagoon"
+        title: `<span class="me-1 fw-bold">Day 7:</span> Sol de Mañana Geyser & Dali Desert (3rd Day)`,
+        des: `Experience the wonders of Bolivia's desert with these activities:`,
+        experiences: [
+          `<span class="me-1 fw-bold">Sol de Mañana Geyser:</span> Visit Sol de Mañana Geyser and take a dip in natural hot springs`,
+          `<span class="me-1 fw-bold">Dali Desert & Green Lagoon:</span> Explore the Dali Desert and end at the Green Lagoon`,
         ],
-        "return": "Evening bus back to La Paz"
-      }
+        return: `Evening bus back to La Paz.`,
+      },
     ],
-  faqs: [
-    {
-      "question": "What are the main highlights of the 7-day Bolivia tour?",
-      "answer": "The tour includes exploring Sucre, Bolivia's most colonial city, experiencing life inside Potosí's iconic silver mine, and taking unique photos in the famous Salar de Uyuni. You'll venture through Bolivia, stopping to enjoy quaint colonial towns, delve into the rich silver mines, and embark on an unforgettable expedition through the vast salt flats of Uyuni."
-    },
-    {
-      "question": "What is included in the tour package?",
-      "answer": "Accommodation: 5 nights in total (1 night each in Sucre, Potosí, and Uyuni; 2 nights during the Uyuni Salt Flats & Desert Adventure). Transport: Transfers between cities, including La Paz to Sucre, Sucre to Potosí, Potosí to Uyuni, and San Pedro de Atacama back to La Paz. Meals: 4 breakfasts, 2 lunches, and 2 dinners. Experiences: Guided tours in Sucre and Potosí, entrance to Potosí's National Mint, and a 3-day/2-night Uyuni Salt Flats & Desert Adventure."
-    },
-    {
-      "question": "What is not included in the tour?",
-      "answer": "The tour does not include a guide throughout the entire trip, meals not mentioned in the itinerary, travel insurance, tips, personal expenses, or accommodation pick-up/drop-off from bus stations."
-    },
-    {
-      "question": "What should I expect during the Uyuni Salt Flats & Desert Adventure?",
-      "answer": "This adventure includes a visit to Uyuni's train graveyard, Colchani's salt workshops, and Isla Incahuasi. You'll explore Eduardo Avaroa National Reserve with its stunning lagoons and geysers. Accommodation includes a night in a salt hotel and a basic lodge."
-    },
-    {
-      "question": "Are there any additional costs I should be aware of?",
-      "answer": "Yes, additional costs include entrance fees to Isla Incahuasi and Eduardo Avaroa National Reserve, water bottles during the tour, hot showers at certain locations, and tips for guides and drivers."
-    },
-    {
-      "question": "How can I book this tour?",
-      "answer": "You can book directly with local operators through platforms like Find Local Trips to ensure you get local prices without agency fees. This supports local communities and provides flexibility in changing your tour dates if needed."
-    },
-    {
-      "question": "What should I bring on this tour?",
-      "answer": "Bring comfortable clothing suitable for various weather conditions, toiletries (towels, toilet paper), sun protection (hat, sunscreen), and personal items such as a camera for capturing memories."
-    }
-  ]
+    faqs: [
+      {
+        "question": "What are the main highlights of the 7-day Bolivia tour?",
+        "answer": "The tour includes exploring Sucre, Bolivia's most colonial city, experiencing life inside Potosí's iconic silver mine, and taking unique photos in the famous Salar de Uyuni. You'll venture through Bolivia, stopping to enjoy quaint colonial towns, delve into the rich silver mines, and embark on an unforgettable expedition through the vast salt flats of Uyuni."
+      },
+      {
+        "question": "What is included in the tour package?",
+        "answer": "Accommodation: 5 nights in total (1 night each in Sucre, Potosí, and Uyuni; 2 nights during the Uyuni Salt Flats & Desert Adventure). Transport: Transfers between cities, including La Paz to Sucre, Sucre to Potosí, Potosí to Uyuni, and San Pedro de Atacama back to La Paz. Meals: 4 breakfasts, 2 lunches, and 2 dinners. Experiences: Guided tours in Sucre and Potosí, entrance to Potosí's National Mint, and a 3-day/2-night Uyuni Salt Flats & Desert Adventure."
+      },
+      {
+        "question": "What is not included in the tour?",
+        "answer": "The tour does not include a guide throughout the entire trip, meals not mentioned in the itinerary, travel insurance, tips, personal expenses, or accommodation pick-up/drop-off from bus stations."
+      },
+      {
+        "question": "What should I expect during the Uyuni Salt Flats & Desert Adventure?",
+        "answer": "This adventure includes a visit to Uyuni's train graveyard, Colchani's salt workshops, and Isla Incahuasi. You'll explore Eduardo Avaroa National Reserve with its stunning lagoons and geysers. Accommodation includes a night in a salt hotel and a basic lodge."
+      },
+      {
+        "question": "Are there any additional costs I should be aware of?",
+        "answer": "Yes, additional costs include entrance fees to Isla Incahuasi and Eduardo Avaroa National Reserve, water bottles during the tour, hot showers at certain locations, and tips for guides and drivers."
+      },
+      {
+        "question": "How can I book this tour?",
+        "answer": "You can book directly with local operators through platforms like Find Local Trips to ensure you get local prices without agency fees. This supports local communities and provides flexibility in changing your tour dates if needed."
+      },
+      {
+        "question": "What should I bring on this tour?",
+        "answer": "Bring comfortable clothing suitable for various weather conditions, toiletries (towels, toilet paper), sun protection (hat, sunscreen), and personal items such as a camera for capturing memories."
+      }
+    ]
 
   },
   {
@@ -1122,64 +1125,64 @@ export const tourDetailsData = [
       '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
       '<strong className="font-bold">End Point:</strong>  La Paz, Bolivia',
     ],
-    
+
     itinerary: [
       {
-        "day": 1,
-        "title": "Arrival in Copacabana",
-        "activities": [
+        title: `<span class="me-1 fw-bold">Day 1:</span> Arrival in Copacabana`,
+        des: `Enjoy the first day of your journey with these activities:`,
+        activities: [
           {
-            "time": "7:00 a.m.",
-            "description": "Pick-up and travel to Copacabana, arriving around noon for a traditional Bolivian lunch."
+            time: `<span class="me-1 fw-bold">7:00 a.m.:</span>`,
+            des: `Pick-up and travel to Copacabana, arriving around noon for a traditional Bolivian lunch.`,
           },
           {
-            "time": "3:00 p.m.",
-            "description": "Trek to 'Horca del Inca,' an ancient site known for its Andean energy and views of Copacabana."
+            time: `<span class="me-1 fw-bold">3:00 p.m.:</span>`,
+            des: `Trek to 'Horca del Inca,' an ancient site known for its Andean energy and views of Copacabana.`,
           },
           {
-            "time": "6:00 p.m.",
-            "description": "Climb to Copacabana's Calvary to enjoy a sunset over Lake Titicaca."
-          }
-        ]
+            time: `<span class="me-1 fw-bold">6:00 p.m.:</span>`,
+            des: `Climb to Copacabana's Calvary to enjoy a sunset over Lake Titicaca.`,
+          },
+        ],
       },
       {
-        "day": 2,
-        "title": "Discover Isla del Sol",
-        "activities": [
+        title: `<span class="me-1 fw-bold">Day 2:</span> Discover Isla del Sol`,
+        des: `Explore the magical Isla del Sol with the following activities:`,
+        activities: [
           {
-            "time": "Morning",
-            "description": "After breakfast, take a private boat to Isla del Sol. Guided walk on the Inca stairway and drink from the Fountain of Eternal Youth."
+            time: `<span class="me-1 fw-bold">Morning:</span>`,
+            des: `After breakfast, take a private boat to Isla del Sol. Guided walk on the Inca stairway and drink from the Fountain of Eternal Youth.`,
           },
           {
-            "time": "Afternoon",
-            "description": "Explore the southern part of Isla del Sol, visiting the Pilkokaina Pre-Inca Sun Temple and enjoying scenic viewpoints."
+            time: `<span class="me-1 fw-bold">Afternoon:</span>`,
+            des: `Explore the southern part of Isla del Sol, visiting the Pilkokaina Pre-Inca Sun Temple and enjoying scenic viewpoints.`,
           },
           {
-            "time": "Evening",
-            "description": "Stay overnight at a local hostel on Isla del Sol with dinner and panoramic lake views."
-          }
-        ]
+            time: `<span class="me-1 fw-bold">Evening:</span>`,
+            des: `Stay overnight at a local hostel on Isla del Sol with dinner and panoramic lake views.`,
+          },
+        ],
       },
       {
-        "day": 3,
-        "title": "Return Journey",
-        "activities": [
+        title: `<span class="me-1 fw-bold">Day 3:</span> Return Journey`,
+        des: `Conclude your trip with these final experiences:`,
+        activities: [
           {
-            "time": "Morning",
-            "description": "After breakfast, visit Pilcocaina's ruins (Temple of the Sun) for excellent photo opportunities."
+            time: `<span class="me-1 fw-bold">Morning:</span>`,
+            des: `After breakfast, visit Pilcocaina's ruins (Temple of the Sun) for excellent photo opportunities.`,
           },
           {
-            "time": "Noon",
-            "description": "Return to Copacabana by boat for a local lunch."
+            time: `<span class="me-1 fw-bold">Noon:</span>`,
+            des: `Return to Copacabana by boat for a local lunch.`,
           },
           {
-            "time": "Afternoon Options",
-            "description": "Choose to take a bus to Puno or return to La Paz."
-          }
-        ]
-      }
+            time: `<span class="me-1 fw-bold">Afternoon Options:</span>`,
+            des: `Choose to take a bus to Puno or return to La Paz.`,
+          },
+        ],
+      },
     ],
-    
+
     included: [
       "Round-trip transport or option to continue to Puno",
       "Bilingual specialized guide",
@@ -1195,7 +1198,7 @@ export const tourDetailsData = [
       "Tips",
       "Extra drinks"
     ],
-    suggested_packing_list: [
+    suggestedPackingList: [
       "Sun block",
       "Sunglasses",
       "Water bottle",
@@ -1221,49 +1224,49 @@ export const tourDetailsData = [
     ],
     itinerary: [
       {
-        "day": 1,
-        "title": "Explore Copacabana and Isla del Sol",
-        "activities": [
+        title: `<span class="me-1 fw-bold">Day 1:</span> Explore Copacabana and Isla del Sol`,
+        des: `Start your journey with an exciting exploration of Copacabana and Isla del Sol:`,
+        activities: [
           {
-            "time": "7:00 a.m.",
-            "description": "Begin the tour with hotel pick-up and travel directly to Copacabana."
+            time: `<span class="me-1 fw-bold">7:00 a.m.:</span>`,
+            des: `Begin the tour with hotel pick-up and travel directly to Copacabana.`,
           },
           {
-            "time": "Noon",
-            "description": "Traditional Bolivian lunch upon arrival in Copacabana."
+            time: `<span class="me-1 fw-bold">Noon:</span>`,
+            des: `Traditional Bolivian lunch upon arrival in Copacabana.`,
           },
           {
-            "time": "Afternoon",
-            "description": "Board a boat to Isla del Sol, walk the Inca Stairway, and drink from the Fountain of Eternal Youth."
+            time: `<span class="me-1 fw-bold">Afternoon:</span>`,
+            des: `Board a boat to Isla del Sol, walk the Inca Stairway, and drink from the Fountain of Eternal Youth.`,
           },
           {
-            "time": "Evening",
-            "description": "Overnight stay at a local hostel on Isla del Sol with dinner and stunning views of Lake Titicaca."
-          }
-        ]
+            time: `<span class="me-1 fw-bold">Evening:</span>`,
+            des: `Overnight stay at a local hostel on Isla del Sol with dinner and stunning views of Lake Titicaca.`,
+          },
+        ],
       },
       {
-        "day": 2,
-        "title": "Cultural Insights and Scenic Beauty",
-        "activities": [
+        title: `<span class="me-1 fw-bold">Day 2:</span> Cultural Insights and Scenic Beauty`,
+        des: `Immerse yourself in the rich culture and breathtaking views of Isla del Sol:`,
+        activities: [
           {
-            "time": "Morning",
-            "description": "After breakfast, visit the ancient Pilcocaina Temple for photographs and scenic views."
+            time: `<span class="me-1 fw-bold">Morning:</span>`,
+            des: `After breakfast, visit the ancient Pilcocaina Temple for photographs and scenic views.`,
           },
           {
-            "time": "Return to Copacabana",
-            "description": "Travel by boat back to Copacabana. Visit the iconic Copacabana Temple."
+            time: `<span class="me-1 fw-bold">Return to Copacabana:</span>`,
+            des: `Travel by boat back to Copacabana. Visit the iconic Copacabana Temple.`,
           },
           {
-            "time": "Lunch Options",
-            "description": "Choose from local eateries for lunch before deciding on your next destination."
+            time: `<span class="me-1 fw-bold">Lunch Options:</span>`,
+            des: `Choose from local eateries for lunch before deciding on your next destination.`,
           },
           {
-            "time": "Travel Choices",
-            "description": "Choose to take a bus to Puno or return to La Paz."
-          }
-        ]
-      }
+            time: `<span class="me-1 fw-bold">Travel Choices:</span>`,
+            des: `Choose to take a bus to Puno or return to La Paz.`,
+          },
+        ],
+      },
     ],
     "why_choose_us": "This Lake Titicaca tour combines adventure with cultural immersion, showcasing hidden gems and offering unique insights into Bolivian culture. The flexible itinerary allows travelers to explore at their own pace.",
     included: [
@@ -1280,7 +1283,7 @@ export const tourDetailsData = [
       "Tips",
       "Extra drinks"
     ],
-    suggested_packing_list: [
+    suggestedPackingList: [
       "Sunblock",
       "Sunglasses",
       "Water bottle",
@@ -1288,41 +1291,41 @@ export const tourDetailsData = [
       "Gloves",
       "Scarf"
     ],
-    
-      faqs: [
-        {
-          "question": "How can I deal with altitude sickness?",
-          "answer": "Altitude sickness can cause headaches and shortness of breath due to lower oxygen levels at high elevations. To prevent it, spend a few days acclimatizing in cities like Puno or Cusco before your tour. Drinking coca tea, staying hydrated, and using over-the-counter medications (after consulting a doctor) can also help."
-        },
-        {
-          "question": "What clothing should I wear for a Lake Titicaca tour?",
-          "answer": "From April to October (dry season), wear warm, wind-resistant clothing, along with gloves and a scarf. From November to March (rainy season), add a rainproof jacket or poncho and waterproof shoes. Year-round essentials include a sun hat, sunglasses, and sunscreen."
-        },
-        {
-          "question": "What are the main attractions of a Lake Titicaca tour?",
-          "answer": "Key attractions include the serene beauty of Lake Titicaca itself, visits to Uros Floating Islands to learn about reed-based lifestyles, and Taquile Island for its unique folklore and arts. These tours often include peaceful boat rides and opportunities to engage with local cultures."
-        },
-        {
-          "question": "What is the difference between a 1-day and 2-day Lake Titicaca tour?",
-          "answer": "A 2-day tour typically includes additional experiences such as visiting more islands like Amantani and sites like the Pachatata archaeological site. It also allows for more interaction with local communities and an overnight stay on one of the islands."
-        },
-        {
-          "question": "Where can I buy typical garments or souvenirs?",
-          "answer": "Puno City offers various shops selling Andean clothing, handicrafts, and souvenirs. The Uros and Taquile Islands also have local markets where visitors can purchase handmade items directly from the artisans."
-        },
-        {
-          "question": "How can I get to Lake Titicaca?",
-          "answer": "Tours often start from Puno City, which can be reached by bus or train from other major Peruvian cities like Cusco. Some tours offer packages that include transportation from these locations."
-        }
-      ]
-    
-    
+
+    faqs: [
+      {
+        "question": "How can I deal with altitude sickness?",
+        "answer": "Altitude sickness can cause headaches and shortness of breath due to lower oxygen levels at high elevations. To prevent it, spend a few days acclimatizing in cities like Puno or Cusco before your tour. Drinking coca tea, staying hydrated, and using over-the-counter medications (after consulting a doctor) can also help."
+      },
+      {
+        "question": "What clothing should I wear for a Lake Titicaca tour?",
+        "answer": "From April to October (dry season), wear warm, wind-resistant clothing, along with gloves and a scarf. From November to March (rainy season), add a rainproof jacket or poncho and waterproof shoes. Year-round essentials include a sun hat, sunglasses, and sunscreen."
+      },
+      {
+        "question": "What are the main attractions of a Lake Titicaca tour?",
+        "answer": "Key attractions include the serene beauty of Lake Titicaca itself, visits to Uros Floating Islands to learn about reed-based lifestyles, and Taquile Island for its unique folklore and arts. These tours often include peaceful boat rides and opportunities to engage with local cultures."
+      },
+      {
+        "question": "What is the difference between a 1-day and 2-day Lake Titicaca tour?",
+        "answer": "A 2-day tour typically includes additional experiences such as visiting more islands like Amantani and sites like the Pachatata archaeological site. It also allows for more interaction with local communities and an overnight stay on one of the islands."
+      },
+      {
+        "question": "Where can I buy typical garments or souvenirs?",
+        "answer": "Puno City offers various shops selling Andean clothing, handicrafts, and souvenirs. The Uros and Taquile Islands also have local markets where visitors can purchase handmade items directly from the artisans."
+      },
+      {
+        "question": "How can I get to Lake Titicaca?",
+        "answer": "Tours often start from Puno City, which can be reached by bus or train from other major Peruvian cities like Cusco. Some tours offer packages that include transportation from these locations."
+      }
+    ]
+
+
   },
   {
     id: 10,
     title: "Titicaca Lake Tour: 1-Day Adventure",
     overview: {
-      
+
     },
     tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
@@ -1332,38 +1335,32 @@ export const tourDetailsData = [
     ],
     itinerary: [
       {
-        "step": 1,
-        "title": "Departure from Copacabana",
-        "description": "Begin your Lake Titicaca tour with a departure from the town of Copacabana, nestled on the shores of the lake. Enjoy the scenic views as you head toward Isla del Sol."
+        title: `<span class="me-1 fw-bold">Step 1:</span> Departure from Copacabana`,
+        des: `Start your Lake Titicaca adventure with a scenic departure from Copacabana.`,
       },
       {
-        "step": 2,
-        "title": "Explore Isla del Sol",
-        "description": "Visit Isla del Sol, known for its stunning landscapes and Inca ruins. Enjoy a guided tour that explores the island's historical significance and ancient myths."
+        title: `<span class="me-1 fw-bold">Step 2:</span> Explore Isla del Sol`,
+        des: `Discover the stunning landscapes and Inca ruins of Isla del Sol, with a guided tour that reveals its rich history.`,
       },
       {
-        "step": 3,
-        "title": "Traditional Bolivian Lunch",
-        "description": "Savor a traditional lunch with local ingredients, offering an authentic taste of the region's cuisine."
+        title: `<span class="me-1 fw-bold">Step 3:</span> Traditional Bolivian Lunch`,
+        des: `Savor a traditional lunch made with local ingredients, offering an authentic taste of Bolivian cuisine.`,
       },
       {
-        "step": 4,
-        "title": "Visit Isla de la Luna",
-        "description": "Discover Isla de la Luna and explore its archaeological sites while learning about its place in Inca mythology."
+        title: `<span class="me-1 fw-bold">Step 4:</span> Visit Isla de la Luna`,
+        des: `Explore Isla de la Luna and its archaeological treasures, learning about its place in Inca mythology.`,
       },
       {
-        "step": 5,
-        "title": "Engage with Local Communities",
-        "description": "Interact with local communities to learn about their traditional lifestyles and customs, gaining a deeper understanding of the region's cultural heritage."
+        title: `<span class="me-1 fw-bold">Step 5:</span> Engage with Local Communities`,
+        des: `Interact with the local communities to learn about their traditions, customs, and way of life.`,
       },
       {
-        "step": 6,
-        "title": "Return to Copacabana",
-        "description": "Conclude your Lake Titicaca tour with a return to Copacabana, reflecting on the day’s experiences."
-      }
+        title: `<span class="me-1 fw-bold">Step 6:</span> Return to Copacabana`,
+        des: `Conclude your tour with a return trip to Copacabana, reflecting on the beauty and culture of the region.`,
+      },
     ],
     "why_choose_us": "This Lake Titicaca tour offers an immersive experience in Bolivia's cultural heritage and natural beauty, allowing travelers to explore ancient ruins, engage with local communities, and enjoy breathtaking landscapes.",
-    inclusions: [
+    included: [
       "Private round-trip transport",
       "Specialized bilingual guide",
       "Food (1 lunch)",
@@ -1372,50 +1369,50 @@ export const tourDetailsData = [
       "All entrance fees",
       "Taxi from bus station to hotel"
     ],
-    exclusions: [
+    exclusion: [
       "Tips",
       "Extra drinks",
     ],
-    suggested_packing_list: [
+    suggestedPackingList: [
       "Sunblock",
       "Sunglasses",
       "Water bottle",
       "Jacket",
       "Gloves"
     ],
-    
-      faqs: [
-        {
-          "question": "How can I deal with altitude sickness?",
-          "answer": "Altitude sickness can cause headaches and shortness of breath due to lower oxygen levels at high elevations. To prevent it, spend a few days acclimatizing in cities like Puno or Cusco before your tour. Drinking coca tea, staying hydrated, and using over-the-counter medications (after consulting a doctor) can also help."
-        },
-        {
-          "question": "What clothing should I wear for a Lake Titicaca tour?",
-          "answer": "From April to October (dry season), wear warm, wind-resistant clothing, along with gloves and a scarf. From November to March (rainy season), add a rainproof jacket or poncho and waterproof shoes. Year-round essentials include a sun hat, sunglasses, and sunscreen."
-        },
-        {
-          "question": "What are the main attractions of a Lake Titicaca tour?",
-          "answer": "Key attractions include the serene beauty of Lake Titicaca itself, visits to Uros Floating Islands to learn about reed-based lifestyles, and Taquile Island for its unique folklore and arts. These tours often include peaceful boat rides and opportunities to engage with local cultures."
-        },
-        {
-          "question": "What is the difference between a 1-day and 2-day Lake Titicaca tour?",
-          "answer": "A 2-day tour typically includes additional experiences such as visiting more islands like Amantani and sites like the Pachatata archaeological site. It also allows for more interaction with local communities and an overnight stay on one of the islands."
-        },
-        {
-          "question": "Where can I buy typical garments or souvenirs?",
-          "answer": "Puno City offers various shops selling Andean clothing, handicrafts, and souvenirs. The Uros and Taquile Islands also have local markets where visitors can purchase handmade items directly from the artisans."
-        },
-        {
-          "question": "How can I get to Lake Titicaca?",
-          "answer": "Tours often start from Puno City, which can be reached by bus or train from other major Peruvian cities like Cusco. Some tours offer packages that include transportation from these locations."
-        }
-      ]
+
+    faqs: [
+      {
+        "question": "How can I deal with altitude sickness?",
+        "answer": "Altitude sickness can cause headaches and shortness of breath due to lower oxygen levels at high elevations. To prevent it, spend a few days acclimatizing in cities like Puno or Cusco before your tour. Drinking coca tea, staying hydrated, and using over-the-counter medications (after consulting a doctor) can also help."
+      },
+      {
+        "question": "What clothing should I wear for a Lake Titicaca tour?",
+        "answer": "From April to October (dry season), wear warm, wind-resistant clothing, along with gloves and a scarf. From November to March (rainy season), add a rainproof jacket or poncho and waterproof shoes. Year-round essentials include a sun hat, sunglasses, and sunscreen."
+      },
+      {
+        "question": "What are the main attractions of a Lake Titicaca tour?",
+        "answer": "Key attractions include the serene beauty of Lake Titicaca itself, visits to Uros Floating Islands to learn about reed-based lifestyles, and Taquile Island for its unique folklore and arts. These tours often include peaceful boat rides and opportunities to engage with local cultures."
+      },
+      {
+        "question": "What is the difference between a 1-day and 2-day Lake Titicaca tour?",
+        "answer": "A 2-day tour typically includes additional experiences such as visiting more islands like Amantani and sites like the Pachatata archaeological site. It also allows for more interaction with local communities and an overnight stay on one of the islands."
+      },
+      {
+        "question": "Where can I buy typical garments or souvenirs?",
+        "answer": "Puno City offers various shops selling Andean clothing, handicrafts, and souvenirs. The Uros and Taquile Islands also have local markets where visitors can purchase handmade items directly from the artisans."
+      },
+      {
+        "question": "How can I get to Lake Titicaca?",
+        "answer": "Tours often start from Puno City, which can be reached by bus or train from other major Peruvian cities like Cusco. Some tours offer packages that include transportation from these locations."
+      }
+    ]
   },
   {
     id: 11,
     title: "Sajama National Park & Uyuni Salt Flats: 3-Day Adventure",
     overview: {
-    
+
     },
     tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
@@ -1425,34 +1422,61 @@ export const tourDetailsData = [
     ],
     itinerary: [
       {
-        "day": 1,
-        "title": "La Paz to Sajama National Park",
-        "description": [
-          "Morning: Depart from La Paz at 7:00 a.m., traveling through the Andean high plateau to Patacamaya, 96 km away.",
-          "Midday: Visit Condoramaya Mummies Tombs and the Renaissance-style Sistine Chapel of the Andes in Curahuara de Carangas.",
-          "Afternoon: Arrive at Sajama National Park to relax in 35°C natural hot springs, then enjoy dinner at your hotel.",
+        title: `<span class="me-1 fw-bold">Day 1:</span> La Paz to Sajama National Park`,
+        des: `Journey through the Andean plateau to Sajama National Park with various scenic and cultural stops along the way:`,
+        activities: [
+          {
+            time: `<span class="me-1 fw-bold">Morning:</span>`,
+            des: `Depart from La Paz at 7:00 a.m., passing through the Andean highlands to Patacamaya.`,
+          },
+          {
+            time: `<span class="me-1 fw-bold">Midday:</span>`,
+            des: `Visit Condoramaya Mummies Tombs and the Sistine Chapel of the Andes in Curahuara de Carangas.`,
+          },
+          {
+            time: `<span class="me-1 fw-bold">Afternoon:</span>`,
+            des: `Arrive at Sajama National Park and relax in natural hot springs before dinner.`,
+          },
         ],
       },
       {
-        "day": 2,
-        "title": "Sajama National Park to Salar del Coipasa",
-        "description": [
-          "Early Morning: Travel by 4x4 Jeep to Huayña Khota Lagoon, encountering flamingos, vicuñas, and passing through forests with llamas and alpacas.",
-          "Midday: Continue to Salar del Coipasa for unique photo opportunities in this smaller salt desert.",
-          "Evening: Arrive at Jirira for dinner and an overnight stay."
-        ]
+        title: `<span class="me-1 fw-bold">Day 2:</span> Sajama National Park to Salar del Coipasa`,
+        des: `Experience the wildlife and unique landscapes as you travel towards Salar del Coipasa:`,
+        activities: [
+          {
+            time: `<span class="me-1 fw-bold">Early Morning:</span>`,
+            des: `Explore Huayña Khota Lagoon, encountering flamingos, vicuñas, llamas, and alpacas.`,
+          },
+          {
+            time: `<span class="me-1 fw-bold">Midday:</span>`,
+            des: `Visit Salar del Coipasa, capturing stunning photos in this unique salt desert.`,
+          },
+          {
+            time: `<span class="me-1 fw-bold">Evening:</span>`,
+            des: `Arrive at Jirira for dinner and an overnight stay.`,
+          },
+        ],
       },
       {
-        "day": 3,
-        "title": "Uyuni Salt Flats Exploration",
-        "description": [
-          "Morning: Begin at 10:30 a.m. with stops at salt mounds, 'Los Ojos de Agua Salada' (saltwater eyes), and a salt museum.",
-          "Midday: Enjoy lunch on the salt flats and visit Incahuasi Island, home to giant cacti and petrified coral.",
-          "Afternoon: Take perspective photos, then visit Pia Pia Island for a sunset view before returning to Uyuni by evening."
-        ]
-      }
+        title: `<span class="me-1 fw-bold">Day 3:</span> Uyuni Salt Flats Exploration`,
+        des: `Explore the wonders of the Uyuni Salt Flats, including iconic landmarks:`,
+        activities: [
+          {
+            time: `<span class="me-1 fw-bold">Morning:</span>`,
+            des: `Visit salt mounds, 'Los Ojos de Agua Salada', and a salt museum.`,
+          },
+          {
+            time: `<span class="me-1 fw-bold">Midday:</span>`,
+            des: `Lunch on the salt flats followed by a visit to Incahuasi Island with giant cacti.`,
+          },
+          {
+            time: `<span class="me-1 fw-bold">Afternoon:</span>`,
+            des: `End with a sunset view at Pia Pia Island before returning to Uyuni.`,
+          },
+        ],
+      },
     ],
-    additionalInformation:{
+    additionalInformation: {
       "rainy_season_changes": [
         "From January to April, the Salt Flats fill with water, so the itinerary adjusts for reflective photos instead of crossing.",
         "Overnight location on Day 1 may vary.",
@@ -1475,7 +1499,7 @@ export const tourDetailsData = [
       "Tips",
       "Extra drinks"
     ],
-    suggested_packing_list: [
+    suggestedPackingListt: [
       "Sun hat",
       "Sunglasses",
       "Sunblock",
@@ -1493,46 +1517,46 @@ export const tourDetailsData = [
       "Hand sanitizer",
       "First aid kit"
     ],
-    "faqs": [
-    {
-      "question": "What are the main attractions of the 3-day tour to Sajama National Park and Uyuni Salt Flats?",
-      "answer": "The tour includes visits to Sajama National Park, known for its hot springs and stunning landscapes, and the Uyuni Salt Flats, famous for its vast white expanse and unique photographic opportunities. Highlights include the Condoramaya Mummies Tombs, Curahuara de Carangas Church, Salar del Coipasa, and Incahuasi Island."
-    },
-    {
-      "question": "What should I pack for the tour?",
-      "answer": "Essentials include sun protection (hat, sunglasses, sunscreen), warm clothing (coat, gloves, wool hat), trekking shoes, snacks, personal medication, a flashlight, a camera with extra batteries and memory card, and a personal first aid kit. Bring extra water (at least 5 liters) and a swimsuit for hot springs."
-    },
-    {
-      "question": "How does the itinerary change with seasons?",
-      "answer": "During the rainy season (January to April), parts of the salt flats may be submerged, altering some routes but offering unique reflective views. In winter (June to August), access to certain areas like Eduardo Avaroa National Park might be restricted due to snow. Adjustments will be made accordingly."
-    },
-    {
-      "question": "Are there any altitude considerations on this tour?",
-      "answer": "Yes, you will be traveling at altitudes up to 4,300 meters above sea level. It's important to stay hydrated and acclimatize properly. Bring warm clothes as temperatures can drop significantly at night."
-    },
-    {
-      "question": "What is included in the tour package?",
-      "answer": "The package typically includes transportation from La Paz, accommodation, meals as specified in the itinerary, guided tours of all major attractions, and entrance fees to national parks."
-    },
-    {
-      "question": "Can I connect this tour with other destinations?",
-      "answer": "Yes, there is an option to connect this tour with San Pedro de Atacama in Chile. Please ensure you book this transfer in advance."
-    },
-    {
-      "question": "What is the best time of year to visit?",
-      "answer": "The best time depends on your preferences: visit during the rainy season for stunning mirror-like reflections on the salt flats or during dry months for easier access across all areas."
-    },
-    {
-      "question": "What are some photography tips for visiting Uyuni Salt Flats?",
-      "answer": "For the best photos, visit during sunrise or sunset when lighting is optimal. Use props for creative perspective shots on the salt flats' reflective surface."
-    }
-  ]
+    faqs: [
+      {
+        "question": "What are the main attractions of the 3-day tour to Sajama National Park and Uyuni Salt Flats?",
+        "answer": "The tour includes visits to Sajama National Park, known for its hot springs and stunning landscapes, and the Uyuni Salt Flats, famous for its vast white expanse and unique photographic opportunities. Highlights include the Condoramaya Mummies Tombs, Curahuara de Carangas Church, Salar del Coipasa, and Incahuasi Island."
+      },
+      {
+        "question": "What should I pack for the tour?",
+        "answer": "Essentials include sun protection (hat, sunglasses, sunscreen), warm clothing (coat, gloves, wool hat), trekking shoes, snacks, personal medication, a flashlight, a camera with extra batteries and memory card, and a personal first aid kit. Bring extra water (at least 5 liters) and a swimsuit for hot springs."
+      },
+      {
+        "question": "How does the itinerary change with seasons?",
+        "answer": "During the rainy season (January to April), parts of the salt flats may be submerged, altering some routes but offering unique reflective views. In winter (June to August), access to certain areas like Eduardo Avaroa National Park might be restricted due to snow. Adjustments will be made accordingly."
+      },
+      {
+        "question": "Are there any altitude considerations on this tour?",
+        "answer": "Yes, you will be traveling at altitudes up to 4,300 meters above sea level. It's important to stay hydrated and acclimatize properly. Bring warm clothes as temperatures can drop significantly at night."
+      },
+      {
+        "question": "What is included in the tour package?",
+        "answer": "The package typically includes transportation from La Paz, accommodation, meals as specified in the itinerary, guided tours of all major attractions, and entrance fees to national parks."
+      },
+      {
+        "question": "Can I connect this tour with other destinations?",
+        "answer": "Yes, there is an option to connect this tour with San Pedro de Atacama in Chile. Please ensure you book this transfer in advance."
+      },
+      {
+        "question": "What is the best time of year to visit?",
+        "answer": "The best time depends on your preferences: visit during the rainy season for stunning mirror-like reflections on the salt flats or during dry months for easier access across all areas."
+      },
+      {
+        "question": "What are some photography tips for visiting Uyuni Salt Flats?",
+        "answer": "For the best photos, visit during sunrise or sunset when lighting is optimal. Use props for creative perspective shots on the salt flats' reflective surface."
+      }
+    ]
   },
   {
     id: 12,
     title: "Sajama National Park Adventure: 2-Day Tour",
     overview: {
-      
+
     },
     tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
@@ -1542,95 +1566,102 @@ export const tourDetailsData = [
     ],
     itinerary: [
       {
-        "day": 1,
-        "title": "La Paz to Sajama National Park",
-        "description": [
-          "Morning: Depart from La Paz at 7:00 a.m., traveling through the Andean high plateau towards Patacamaya, 96 km away, enjoying views and traditional Andean scenery.",
-          "Midday: Visit Condoramaya Mummies Tombs, a colorful archaeological site, and continue to Curahuara de Carangas, the 'Sistine Chapel of the Andes,' known for its Renaissance architecture and murals.",
-          "Afternoon: Arrive at Sajama National Park to relax in natural hot springs (35°C), known for their medicinal properties.",
-          "Evening: Enjoy dinner at the hotel, reflecting on the day's experiences."
-        ]
+        title: `<span class="me-1 fw-bold">Day 1:</span> La Paz to Sajama National Park`,
+        des: `Explore the scenic and cultural landmarks on the way to Sajama National Park:`,
       },
       {
-        "day": 2,
-        "title": "Exploring Sajama National Park",
-        "description": [
-          "Early Morning: Travel by 4x4 Jeep to Huayña Khota Lagoon, observing flamingos, vicuñas, llamas, and alpacas in kewiña forests.",
-          "Midday: Ascend hills to reach lagoons near the Chilean border, and enjoy lunch at Sabaya Village with mountain views.",
-          "Afternoon: Return to La Paz, enriched by the scenic and cultural experiences of Sajama."
-        ]
-      }
-    ],
-    service_options: {
-      "regular_service": {
-        "includes": [
-          "Basic accommodation",
-          "Airport or bus station pickup from La Paz",
-          "4WD transportation with rooftop luggage rack",
-          "Local driver and English-speaking guide",
-          "Meals: 2 lunches, 1 dinner, 1 breakfast, and 1 box lunch",
-          "Entrance fees",
-          "Local taxes"
-        ],
-        "excludes": [
-          "Toilets on the way (20 Bs.)",
-          "Extra drinks",
-          "Tips"
-        ]
+
+        title: `<span class="me-1 fw-bold">Morning:</span>`,
+        des: `Depart from La Paz at 7:00 a.m., traveling through the Andean high plateau to Patacamaya.`,
       },
-      improved_service: {
-        "includes": [
-          "Accommodation in 3-star hotel",
-          "Airport or bus station pickup from La Paz",
-          "4WD transportation with rooftop luggage rack",
-          "Local driver and English-speaking guide",
-          "Meals: 2 lunches, 1 dinner, 1 breakfast, and 1 box lunch",
-          "Entrance fees",
-          "Local taxes"
-        ],
-        "excludes": [
-          "Extra drinks",
-          "Tips"
-        ]
+      {
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Visit the Condoramaya Mummies Tombs and the Sistine Chapel of the Andes.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Afternoon:</span>`,
+        des: `Relax in Sajama's natural hot springs and enjoy dinner at your hotel.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Day 2:</span> Exploring Sajama National Park`,
+        des: `Continue your adventure through Sajama National Park and beyond:`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Early Morning:</span>`,
+        des: `Travel by 4x4 to Huayña Khota Lagoon, spotting local wildlife.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Enjoy lunch at Sabaya Village and explore the surrounding mountain views.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Afternoon:</span>`,
+        des: `Return to La Paz with memories of Sajama's cultural and natural beauty.`,
+      },
+
+    ],
+
+    included: [
+      "regular_service:",
+      "Basic accommodation",
+      "Airport or bus station pickup from La Paz",
+      "4WD transportation with rooftop luggage rack",
+      "Local driver and English-speaking guide",
+      "Meals: 2 lunches, 1 dinner, 1 breakfast, and 1 box lunch",
+      "Entrance fees",
+      "Local taxes",
+      "improved_service:",
+      "Accommodation in 3-star hotel",
+      "Airport or bus station pickup from La Paz",
+      "4WD transportation with rooftop luggage rack",
+      "Local driver and English-speaking guide",
+      "Meals: 2 lunches, 1 dinner, 1 breakfast, and 1 box lunch",
+      "Entrance fees",
+      "Local taxes"
+    ],
+    exclusion: [
+      "Toilets on the way (20 Bs.)",
+      "Extra drinks",
+      "Tips"
+    ],
+
+    faqs: [
+      {
+        "question": "What are the main highlights of the Sajama National Park and Uyuni Salt Flats tour?",
+        "answer": "The tour includes visits to Sajama National Park, known for its hot springs and stunning landscapes, and the Uyuni Salt Flats, famous for its vast white expanse and unique photographic opportunities. Key attractions include Condoramaya Mummies Tombs, Curahuara de Carangas Church, Salar del Coipasa, Incahuasi Island, and the Red Lagoon."
+      },
+      {
+        "question": "What should I pack for the tour?",
+        "answer": "We recommend packing sun protection (hat, sunglasses, sunscreen), warm clothing (coat, gloves, wool hat), trekking shoes, a swimsuit and towel for hot springs, extra water (at least 5 liters), snacks, personal medication, a flashlight or torch, a camera with extra batteries and memory card, a charger (electricity available in most hotels), hand sanitizer, and a personal first aid kit."
+      },
+      {
+        "question": "How does the itinerary change with seasons?",
+        "answer": "During the rainy season (January to April), parts of the salt flats may be submerged, offering unique reflective views but altering some routes. In winter (June to August), access to certain areas like Eduardo Avaroa National Park might be restricted due to snow. Adjustments will be made accordingly."
+      },
+      {
+        "question": "Are there any altitude considerations on this tour?",
+        "answer": "Yes, you will be traveling at altitudes up to 4,300 meters above sea level. It's important to stay hydrated and acclimatize properly. Bring warm clothes as temperatures can drop significantly at night."
+      },
+      {
+        "question": "What is included in the tour package?",
+        "answer": "The package typically includes transportation from La Paz, accommodation, meals as specified in the itinerary, guided tours of all major attractions, and entrance fees to national parks."
+      },
+      {
+        "question": "Can I connect this tour with other destinations?",
+        "answer": "Yes, there is an option to connect this tour with San Pedro de Atacama in Chile. Please ensure you book this transfer in advance."
+      },
+      {
+        "question": "What is the best time of year to visit?",
+        "answer": "The best time depends on your preferences: visit during the rainy season for stunning mirror-like reflections on the salt flats or during dry months for easier access across all areas."
       }
-    },
-    "faqs": [
-    {
-      "question": "What are the main highlights of the Sajama National Park and Uyuni Salt Flats tour?",
-      "answer": "The tour includes visits to Sajama National Park, known for its hot springs and stunning landscapes, and the Uyuni Salt Flats, famous for its vast white expanse and unique photographic opportunities. Key attractions include Condoramaya Mummies Tombs, Curahuara de Carangas Church, Salar del Coipasa, Incahuasi Island, and the Red Lagoon."
-    },
-    {
-      "question": "What should I pack for the tour?",
-      "answer": "We recommend packing sun protection (hat, sunglasses, sunscreen), warm clothing (coat, gloves, wool hat), trekking shoes, a swimsuit and towel for hot springs, extra water (at least 5 liters), snacks, personal medication, a flashlight or torch, a camera with extra batteries and memory card, a charger (electricity available in most hotels), hand sanitizer, and a personal first aid kit."
-    },
-    {
-      "question": "How does the itinerary change with seasons?",
-      "answer": "During the rainy season (January to April), parts of the salt flats may be submerged, offering unique reflective views but altering some routes. In winter (June to August), access to certain areas like Eduardo Avaroa National Park might be restricted due to snow. Adjustments will be made accordingly."
-    },
-    {
-      "question": "Are there any altitude considerations on this tour?",
-      "answer": "Yes, you will be traveling at altitudes up to 4,300 meters above sea level. It's important to stay hydrated and acclimatize properly. Bring warm clothes as temperatures can drop significantly at night."
-    },
-    {
-      "question": "What is included in the tour package?",
-      "answer": "The package typically includes transportation from La Paz, accommodation, meals as specified in the itinerary, guided tours of all major attractions, and entrance fees to national parks."
-    },
-    {
-      "question": "Can I connect this tour with other destinations?",
-      "answer": "Yes, there is an option to connect this tour with San Pedro de Atacama in Chile. Please ensure you book this transfer in advance."
-    },
-    {
-      "question": "What is the best time of year to visit?",
-      "answer": "The best time depends on your preferences: visit during the rainy season for stunning mirror-like reflections on the salt flats or during dry months for easier access across all areas."
-    }
-]
+    ]
 
   },
   {
     id: 13,
     title: "Sajama National Park and Uyuni Salt Flats: 5-Day Tour",
     overview: {
-      
+
     },
     tourInfo: [
       '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
@@ -1640,50 +1671,88 @@ export const tourDetailsData = [
     ],
     itinerary: [
       {
-        "day": 1,
-        "title": "La Paz to Sajama National Park",
-        "description": [
-          "Morning: Depart from La Paz at 7:00 a.m. towards Patacamaya, about 96 km away, enjoying scenic Andean high plateau views.",
-          "Midday: Visit Condoramaya Mummies Tombs and the 'Sistine Chapel of the Andes' at Curahuara de Carangas.",
-          "Afternoon: Arrive at Sajama National Park to relax in hot springs at 35°C, followed by dinner at the hotel."
-        ]
+        title: `<span class="me-1 fw-bold">Day 1:</span> La Paz to Sajama National Park`,
+        des: `Explore the wonders of Sajama National Park with scenic stops along the way:`,
       },
       {
-        "day": 2,
-        "title": "Sajama National Park to Salar del Coipasa",
-        "description": [
-          "Early Morning: Take a 4x4 Jeep to Huayña Khota Lagoon, observing flamingos, vicuñas, llamas, and alpacas.",
-          "Midday: Lunch en route to Sabaya Village, and continue to Salar del Coipasa for photography.",
-          "Evening: Arrive at Jirira town for dinner and an overnight stay."
-        ]
+        title: `<span class="me-1 fw-bold">Morning:</span>`,
+        des: `Depart from La Paz at 7:00 a.m. towards Patacamaya, about 96 km away, enjoying scenic Andean high plateau views.`,
       },
       {
-        "day": 3,
-        "title": "Uyuni Salt Flats Exploration",
-        "description": [
-          "Morning: Visit salt mounds near the flats, 'Los Ojos de Agua Salada,' and a salt museum.",
-          "Midday: Lunch on the salt flats, with a visit to Incahuasi Island to see cacti and coral formations.",
-          "Afternoon: Capture perspective photos, and watch the sunset at Pia Pia Island before returning to accommodation."
-        ]
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Visit Condoramaya Mummies Tombs and the 'Sistine Chapel of the Andes' at Curahuara de Carangas.`,
       },
       {
-        "day": 4,
-        "title": "Andean Lagoons and Eduardo Avaroa National Reserve",
-        "description": [
-          "Morning: Head to Chiguana Desert and visit Andean lagoons (Cañapa, Hedionda, and Chiarcota) with volcano views.",
-          "Midday: Lunch at Hedionda Lagoon and explore Siloli Desert's Rock Tree and Red Lagoon.",
-          "Evening: Overnight stay at a nearby hostel."
-        ]
+        title: `<span class="me-1 fw-bold">Afternoon:</span>`,
+        des: `Arrive at Sajama National Park to relax in hot springs at 35°C, followed by dinner at the hotel.`,
+      },
+
+      {
+        title: `<span class="me-1 fw-bold">Day 2:</span> Sajama National Park to Salar del Coipasa`,
+        des: `Venture through breathtaking landscapes en route to Salar del Coipasa:`,
       },
       {
-        "day": 5,
-        "title": "Geysers, Hot Springs, and Return to Uyuni",
-        "description": [
-          "Early Morning: Visit Sol de Mañana Geyser for fumaroles and mud craters.",
-          "Midday: Relax in open-air hot springs, then visit Dali Desert and Green Lagoon.",
-          "Afternoon: Return to Uyuni with stops at Valley of the Rocks and San Cristobal Village. Arrival in Uyuni around 6:30 p.m., with optional transfer to San Pedro de Atacama."
-        ]
-      }
+        title: `<span class="me-1 fw-bold">Early Morning:</span>`,
+        des: `Take a 4x4 Jeep to Huayña Khota Lagoon, observing flamingos, vicuñas, llamas, and alpacas.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Lunch en route to Sabaya Village, and continue to Salar del Coipasa for photography.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Evening:</span>`,
+        des: `Arrive at Jirira town for dinner and an overnight stay.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Day 3:</span> Uyuni Salt Flats Exploration`,
+        des: `Discover the iconic Uyuni Salt Flats and its unique features:`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Morning:</span>`,
+        des: `Visit salt mounds near the flats, 'Los Ojos de Agua Salada,' and a salt museum.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Lunch on the salt flats, with a visit to Incahuasi Island to see cacti and coral formations.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Afternoon:</span>`,
+        des: `Capture perspective photos, and watch the sunset at Pia Pia Island before returning to accommodation.`,
+      },
+
+      {
+        title: `<span class="me-1 fw-bold">Day 4:</span> Andean Lagoons and Eduardo Avaroa National Reserve`,
+        des: `Experience the surreal beauty of the Andean lagoons and desert landscapes:`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Morning:</span>`,
+        des: `Head to Chiguana Desert and visit Andean lagoons (Cañapa, Hedionda, and Chiarcota) with volcano views.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Lunch at Hedionda Lagoon and explore Siloli Desert's Rock Tree and Red Lagoon.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Evening:</span>`,
+        des: `Overnight stay at a nearby hostel.`,
+      },
+
+      {
+        title: `<span class="me-1 fw-bold">Day 5:</span> Geysers, Hot Springs, and Return to Uyuni`,
+        des: `End the adventure with stunning geysers, hot springs, and scenic stops:`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Early Morning:</span>`,
+        des: `Visit Sol de Mañana Geyser for fumaroles and mud craters.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Midday:</span>`,
+        des: `Relax in open-air hot springs, then visit Dali Desert and Green Lagoon.`,
+      },
+      {
+        title: `<span class="me-1 fw-bold">Afternoon:</span>`,
+        des: `Return to Uyuni with stops at Valley of the Rocks and San Cristobal Village. Arrival in Uyuni around 6:30 p.m., with optional transfer to San Pedro de Atacama.`,
+      },
     ],
     additionalInformation: {
       "seasonal_adjustments": [
@@ -1702,15 +1771,13 @@ export const tourDetailsData = [
           ]
         }
       ],
-      "packing_essentials": [
-        "Warm clothing for cold nights",
-        "Sun protection (sun hat, sunglasses, sunblock)",
-        "Snacks, personal medication",
-        "At least 5 liters of water"
-      ]
     },
-    suggested_packing_list: [
+    suggestedPackingList: [
       "Sun hat, sunglasses, sunblock",
+      "Warm clothing for cold nights",
+      "Sun protection (sun hat, sunglasses, sunblock)",
+      "Snacks, personal medication",
+      "At least 5 liters of water",
       "Warm clothing (coat, gloves, wool hat)",
       "Trekking shoes, warm socks",
       "Swimsuit and towel for hot springs",
@@ -1750,20 +1817,20 @@ export const tourDetailsData = [
         "question": "What is the best time of year to visit?",
         "answer": "The best time to visit depends on your preferences: visit during the rainy season for stunning mirror-like reflections on the salt flats or during dry months for easier access across all areas."
       }
-  ]
+    ]
   },
   {
-      id: 14,
-      title: "FROM LOW TO HIGHLANDS ",
-      overview: {
-        
-      },
-      tourInfo: [
-        '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
-        ' <strong className="font-bold">Duration:</strong> 15 days / 14 nights',
-        '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
-        '<strong className="font-bold">End Point:</strong>  Uyuni, Bolivia',
-      ],
+    id: 14,
+    title: "FROM LOW TO HIGHLANDS ",
+    overview: {
+
+    },
+    tourInfo: [
+      '<strong className="font-bold"> Place Covered</strong>: La Paz-Potosí-Sucre',
+      ' <strong className="font-bold">Duration:</strong> 15 days / 14 nights',
+      '<strong className="font-bold">Start Point:</strong> La Paz, Bolivia',
+      '<strong className="font-bold">End Point:</strong>  Uyuni, Bolivia',
+    ],
   }
 ];
 
@@ -1800,3 +1867,4 @@ export const PriceRange = [
 ];
 
 export const Ratings = ["⭐", "⭐⭐", "⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"];
+

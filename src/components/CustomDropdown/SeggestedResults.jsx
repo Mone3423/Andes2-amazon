@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const SuggestedResults = ({ results }) => {
+  if (!results) return null;
+
   return (
     <div className="suggested-results">
       {results.length > 0 ? (

@@ -1,41 +1,53 @@
+/* Contenedor del buscador */
+.search-container {
+  position: absolute; /* También puedes usar fixed si quieres que se mantenga al hacer scroll */
+  top: 20px; /* Ajusta según la posición que desees */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Ajusta el ancho del buscador */
+  max-width: 600px;
+  z-index: 10; /* Asegura que esté encima del banner */
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+/* Estilos del input del buscador */
 .search-input {
-    padding: 8px;
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-  }
-  
-  .suggested-results {
-    margin-top: 10px;
-  }
-  
-  .suggestion-item {
-    padding: 5px 0;
-    border-bottom: 1px solid #f0f0f0;
-  }
-  
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
 
+.search-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.2);
+}
 
+.suggested-results {
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
 
+.suggestion-item {
+  padding: 10px 15px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.suggestion-item:hover {
+  background-color: #f9f9f9;
+  color: #007bff;
+}

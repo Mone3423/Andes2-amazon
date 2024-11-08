@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { popularsData } from "../../utils/data"; // Importa tu data aquí
+import { popularsData } from "../../utils/data"; // Importa la data correctamente
 
 const SimpleSearch = ({ onSearchResults }) => {
   const [query, setQuery] = useState("");
@@ -8,12 +8,15 @@ const SimpleSearch = ({ onSearchResults }) => {
     const value = e.target.value;
     setQuery(value);
 
-    // Filtra tours según el criterio deseado, como 'title'
-    const filteredResults = popularsData.filter((tour) =>
-      tour.title.toLowerCase().includes(value.toLowerCase())
-    );
+    // Filtra solo si hay datos y si la búsqueda no está vacía
+    const filteredResults =
+      popularsData && popularsData.length > 0
+        ? popularsData.filter((tour) =>
+            tour.title.toLowerCase().includes(value.toLowerCase())
+          )
+        : [];
 
-    onSearchResults(filteredResults);
+    onSearchResults(filteredResults); // Envía los resultados al componente padre
   };
 
   return (
@@ -23,7 +26,7 @@ const SimpleSearch = ({ onSearchResults }) => {
         placeholder="Buscar tours..."
         value={query}
         onChange={handleSearch}
-        className="search-input" // Aplica tu estilo aquí
+        className="search-input"
       />
     </div>
   );

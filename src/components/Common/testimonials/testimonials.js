@@ -1,22 +1,23 @@
 import React from 'react';
 import './testimonials.css';
 
+
 const testimonialsData = [
   {
     name: "John Doe",
-    image: "path/to/image1.jpg",
+    image: "../../assets/images/tour/Cochabamba.jpg",
     feedback: "This was an incredible experience! The tour exceeded all my expectations.",
     location: "New York, USA"
   },
   {
     name: "Jane Smith",
-    image: "path/to/image2.jpg",
+    image: "../../assets/images/tour/LaPaz.jpg",
     feedback: "Excellent service and friendly staff. I highly recommend them!",
     location: "Los Angeles, USA"
   },
   {
     name: "Carlos Ruiz",
-    image: "path/to/image3.jpg",
+    image: "../../assets/images/tour/Sajama.jpg",
     feedback: "Great tour with lots of interesting stops. Well worth the money.",
     location: "Madrid, Spain"
   },

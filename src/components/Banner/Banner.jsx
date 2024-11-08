@@ -22,6 +22,7 @@ const Banner = () => {
           Experience the beauty of Bolivia with our tours.
           </p>
         </div>
+        
 
         {/* Carrusel de Imágenes */}
         <Carousel variant="dark">

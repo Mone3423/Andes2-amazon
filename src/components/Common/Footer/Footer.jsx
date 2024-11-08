@@ -37,14 +37,12 @@ const Footer = () => {
             <h4 className="mt-lg-0 mt-sm-3">Company </h4>
             <ListGroup variant="flush">
               <ListGroup.Item>
-                <NavLink to="/">About Us</NavLink>
+              <NavLink to="/about-us">About Us</NavLink>
               </ListGroup.Item>
               <ListGroup.Item>
-              <NavLink to="/">News</NavLink>
+              <NavLink to="/blog">Blog</NavLink>
               </ListGroup.Item>
-              <ListGroup.Item>
-              <NavLink to="/">Faq</NavLink>
-              </ListGroup.Item>
+              
               <div className="d-flex align-items-top ">
           <h4 className="mt-lg-0 mt-sm-3 me-3">Follow us   </h4>
               
@@ -59,13 +57,10 @@ const Footer = () => {
           <h4 className="mt-lg-0 mt-sm-3">Explore </h4>
           <ListGroup variant="flush">
               <ListGroup.Item>
-                <NavLink to="/"> Faq</NavLink>
+              <NavLink to="/tour">Tour Listings</NavLink>
               </ListGroup.Item>
               <ListGroup.Item>
-              <NavLink to="/">Tour Listings</NavLink>
-              </ListGroup.Item>
-              <ListGroup.Item>
-              <NavLink to="/"> Destination</NavLink>
+              <NavLink to="/destinations"> Destination</NavLink>
               </ListGroup.Item>
              
             </ListGroup>
@@ -77,10 +72,7 @@ const Footer = () => {
                 <NavLink to="/"> Home</NavLink>
               </ListGroup.Item>
               <ListGroup.Item>
-              <NavLink to="/">About Us </NavLink>
-              </ListGroup.Item>
-              <ListGroup.Item>
-              <NavLink to="/"> Contact Us </NavLink>
+              <NavLink to="/contact-us"> Contact Us </NavLink>
               </ListGroup.Item>
               
              
@@ -100,7 +92,7 @@ const Footer = () => {
           </div>
           <div className="d-flex align-items-top ">
           <i className="bi bi-whatsapp me-3"></i>
-          <a target="_blank" href="tel:+591 719-69465" className="d-block" >+591 719-69465</a>
+          <a target="_blank" href="https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0" className="d-block" >+591 719-69465</a>
           </div>
          
           </Col>

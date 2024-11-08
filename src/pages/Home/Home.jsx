@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
-import AdvanceSearch from "../../components/AdvanceSearch/SearchSection";
+import AdvanceSearch from "../../components/AdvanceSearch/AdvanceSearch";
 import Features from "../../components/Features/Features";
 import { Container, Row, Col,  } from "react-bootstrap";
 
@@ -13,6 +13,8 @@ import "./home.css";
 import Cards from "../../components/Cards/Cards";
 import { destinationsData, popularsData } from "../../utils/data";
 import PopularCard from "../../components/Cards/PopularCard";
+import whatsappIcon from '../../assets/images/whatsapp-icon.png';
+import messengerIcon from '../../assets/images/messenger-icon.png';
 
 
 
@@ -70,9 +72,24 @@ const Home = () => {
 
   return (
     <>
+
       <Banner />
       <AdvanceSearch />
+      
       <Features />
+      
+      <div
+        className="whatsapp-widget"
+        onClick={() => window.open('https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0', '_blank')}
+      >
+        <img src={whatsappIcon} alt="WhatsApp Icon" />
+      </div>
+      <div
+        className="messenger-widget"
+        onClick={() => window.open('https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0', '_blank')}
+      >
+        <img src={messengerIcon} alt="Mesenger Icon" />
+      </div>
 
       {/* tour seciton start */}
 
@@ -135,7 +152,7 @@ const Home = () => {
       </Col>
       <Col md="4" className="text-center mt-3 mt-md-0">
         <a
-          href="tel:+591 719-69465"
+          href="https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0"
           className="secondary_btn bounce"
           rel="no"
         >
@@ -145,12 +162,12 @@ const Home = () => {
         {/* Contenedor para los íconos, debajo del botón */}
         <div className="mt-3"> 
           <a
-            href="tel:+591 719-69465"
+            href="https://api.whatsapp.com/send/?phone=59171969465&text&type=phone_number&app_absent=0"
             className="bi bi-instagram me-4 fs-3 text-white"
             rel="no"
           ></a>
           <a
-            href="tel:+591 719-69465"
+            href="https://www.facebook.com/Andes2Amazon"
             className="bi bi-facebook fs-3 text-white"
             rel="no"
           ></a>
